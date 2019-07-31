@@ -11,3 +11,9 @@
 
 ## xiaolu
 <a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/小鹿-作业/code/xiaolu.html">小鹿网页</a>
+
+##xiaoren
+<a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/太极and阿绿/code/html/xiaoren.html">小绿人</a>
+
+##taiji
+<a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/太极and阿绿/code/html/taiji.html">太极</a>
