@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box {
+            width: 400px;
+            height: 400px;
+            border: 1px solid #fff;
+            position: relative;
+            margin: 100px auto;
+        }
+
+        .box1 {
+            width: 200px;
+            height: 400px;
+            background-color: #fff;
+            border-radius: 200px 0 0 200px;
+            border: 1px solid #000;
+            border-right: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+
+        }
+
+        .box2 {
+            width: 200px;
+            height: 400px;
+            background-color: #000;
+            border-radius: 0 200px 200px 0;
+            /* border: 1px solid #000; */
+            position: absolute;
+            right: 0;
+            top: 0;
+
+        }
+
+        .box3 {
+            width: 100px;
+            height: 200px;
+            background-color: #fff;
+            border-radius: 0 100px 100px 0;
+            position: absolute;
+            left: 200px;
+            top: 0;
+
+        }
+
+        .box4 {
+            width: 100px;
+            height: 200px;
+            background-color: #000;
+            border-radius: 100px 0 0 100px;
+            position: absolute;
+            left: 100px;
+            top: 200px;
+
+        }
+
+        .box5 {
+            width: 80px;
+            height: 80px;
+            background-color: #000;
+            border-radius: 50%;
+            position: absolute;
+            left: 160px;
+            top: 50px;
+            box-shadow: 0px 0px 5px 10px #ccc;
+
+        }
+
+        .box6 {
+            width: 80px;
+            height: 80px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 160px;
+            top: 250px;
+            box-shadow: 0px 0px 5px 10px #ccc;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        #box:hover {
+            transform: rotate(360deg);
+            /* transition: transform 1s linear; */
+            animation: spin 1s linear infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+#box {
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    position: relative;
+    background-color: #fff;
+    padding-left: 500px;
+}
+
+.box1 {
+    width: 300px;
+    height: 150px;
+    background-color: #58bc58;
+    border-radius: 150px 150px 0 0;
+
+}
+
+.box1-1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 570px;
+    top: 50px;
+}
+
+.box1-2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 680px;
+    top: 50px;
+}
+
+.box2 {
+    margin-top: 20px;
+    width: 300px;
+    height: 350px;
+    background-color: #58bc58;
+    border-radius: 0 0 10% 10% / 0 0 10% 10%;
+}
+
+.box3 {
+    width: 30px;
+    height: 280px;
+    border-radius: 10px;
+    position: absolute;
+    left: 450px;
+    top: 170px;
+    background-color: #58bc58;
+
+}
+
+.box4 {
+    width: 30px;
+    height: 280px;
+    border-radius: 10px;
+    position: absolute;
+    left: 820px;
+    top: 170px;
+    background-color: #58bc58;
+
+}
+
+.box5 {
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 40px 40px / 0 0 50px 50px;
+    background-color: #58bc58;
+    position: absolute;
+    left: 570px;
+}
+
+.box6 {
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 40px 40px / 0 0 50px 50px;
+    background-color: #58bc58;
+    position: absolute;
+    left: 690px;
+}
+
+.box7 {
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #58bc58;
+    position: absolute;
+    left: 190px;
+    top: 170px;
+    display: none;
+}
+
+.box8 {
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #58bc58;
+    position: absolute;
+    left: 820px;
+    top: 170px;
+    display: none;
+}
+
+.box1:hover .box1-1 {
+    background-color: red;
+    border-radius: 20% 80% 20% 80%;
+}
+
+.box1:hover .box1-2 {
+    background-color: red;
+    border-radius: 80% 20% 80% 20%;
+}
+
+.box1:hover .box1-3 {
+    display: block;
+}
+
+.box1:hover .box1-4 {
+    display: block;
+}
+
+.box2:hover .box3 {
+    display: none;
+}
+
+.box2:hover .box7 {
+    display: block;
+}
+
+.box2:hover .box4 {
+    display: none;
+}
+
+.box2:hover .box8 {
+    display: block;
+}
+
+.box1-3 {
+    width: 50px;
+    height: 100px;
+    border-radius: 0 0 50px 50px;
+    background-color: red;
+    position: absolute;
+    left: 625px;
+    top: 125px;
+    display: none;
+}
+
+.box1-4 {
+    width: 70px;
+    height: 35px;
+    border-radius: 0 0 35px 35px;
+    background-color: #fff;
+    position: absolute;
+    left: 615px;
+    top: 110px;
+    display: none;
+}
