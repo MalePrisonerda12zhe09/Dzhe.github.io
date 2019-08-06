@@ -1,0 +1,320 @@
+html,
+body {
+  height: 100%;
+}
+
+#faxian {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+#faxian .fx-header {
+  height: 42.66667vw;
+  background-color: #fff;
+}
+
+#faxian .fx-header ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#faxian .fx-header ul li {
+  width: 49.86667vw;
+  height: 21.2vw;
+}
+
+#faxian .fx-header ul li span:nth-of-type(1) {
+  display: block;
+  font-size: 4vw;
+}
+
+#faxian .fx-header ul li span:nth-of-type(2) {
+  margin-top: 2.66667vw;
+  font-size: 2.66667vw;
+  color: #c9c9c9;
+}
+
+#faxian .fx-header ul li:nth-of-type(1) {
+  box-sizing: border-box;
+  padding-top: 6.66667vw;
+  padding-left: 4.26667vw;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #cccccc;
+}
+
+#faxian .fx-header ul li:nth-of-type(1) span:nth-of-type(1) {
+  color: #e6a106;
+}
+
+#faxian .fx-header ul li:nth-of-type(2) {
+  box-sizing: border-box;
+  padding-top: 6.66667vw;
+  padding-left: 4.26667vw;
+  border-bottom: 1px solid #cccccc;
+  background: url(../images/hongbao1.webp) no-repeat 34.66667vw 5.33333vw;
+  background-size: 12vw 12vw;
+}
+
+#faxian .fx-header ul li:nth-of-type(2) span:nth-of-type(1) {
+  color: #1ca7e0;
+}
+
+#faxian .fx-header ul li:nth-of-type(3) {
+  width: 49.73333vw;
+  height: 21.06667vw;
+  border-right: 0.13333vw solid #ccc;
+  border-bottom: 0.13333vw solid #cccccc;
+  background: url(../images/hongbao.webp) no-repeat 27.33333vw 3.33333vw;
+  background-size: 16vw 16vw;
+}
+
+#faxian .fx-header ul li:nth-of-type(4) {
+  box-sizing: border-box;
+  padding-top: 6.66667vw;
+  padding-left: 4.26667vw;
+  border-bottom: 1px solid #cccccc;
+  background: url(../images/hongbao2.webp) no-repeat 34.66667vw 5.33333vw;
+  background-size: 12vw 12vw;
+}
+
+#faxian .fx-header ul li:nth-of-type(4) span:nth-of-type(1) {
+  color: #ee7e6a;
+}
+
+#faxian .fx-main {
+  flex: 1;
+  margin-top: 2.93333vw;
+  overflow: auto;
+}
+
+#faxian .fx-main .main1 {
+  box-sizing: border-box;
+  padding-top: 5.86667vw;
+  background-color: #fff;
+}
+
+#faxian .fx-main .main1 .aa {
+  height: 4.93333vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#faxian .fx-main .main1 .aa span {
+  font-size: 4.66667vw;
+  font-weight: 600;
+}
+
+#faxian .fx-main .main1 .bb {
+  text-align: center;
+  font-size: 2.8vw;
+  line-height: 2.8vw;
+  margin-top: 2.66667vw;
+  color: #d6d6d6;
+}
+
+#faxian .fx-main .main1 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3.6vw;
+}
+
+#faxian .fx-main .main1 ul li {
+  box-sizing: border-box;
+  width: 45.6vw;
+  height: 73.2vw;
+  margin-bottom: 2.66667vw;
+}
+
+#faxian .fx-main .main1 ul li img {
+  width: 45.6vw;
+  height: 46vw;
+}
+
+#faxian .fx-main .main1 ul li .main1-1 {
+  box-sizing: border-box;
+  padding-left: 2.66667vw;
+}
+
+#faxian .fx-main .main1 ul li .main1-1 p:nth-of-type(1) {
+  font-size: 3.86667vw;
+  line-height: 3.86667vw;
+  margin-top: 1.6vw;
+}
+
+#faxian .fx-main .main1 ul li .main1-1 p:nth-of-type(2) {
+  font-size: 2.53333vw;
+  line-height: 2.53333vw;
+  margin-top: 2.13333vw;
+  color: #c9c9c9;
+}
+
+#faxian .fx-main .main1 ul li .main1-1 p:nth-of-type(3) {
+  margin-top: 2.53333vw;
+}
+
+#faxian .fx-main .main1 ul li .main1-1 p:nth-of-type(3) span:nth-of-type(1) {
+  font-size: 3.46667vw;
+  line-height: 3.46667vw;
+  color: #e6a106;
+}
+
+#faxian .fx-main .main1 ul li .main1-1 p:nth-of-type(3) span:nth-of-type(2) {
+  margin-left: 2vw;
+  width: 10.66667vw;
+  height: 2.66667vw;
+  font-size: 2.66667vw;
+  line-height: 3.46667vw;
+  border-radius: 10%;
+  border: 1px solid #ee7e6a;
+  color: #ee7e6a;
+}
+
+#faxian .fx-main .main1 ul li .main1-1 p:nth-of-type(4) {
+  margin-top: 2.13333vw;
+  height: 8.8vw;
+  font-size: 2.93333vw;
+  line-height: 8.8vw;
+  border-top: 1px dashed #c9c9c9;
+  color: #a1a1a1;
+}
+
+#faxian .fx-main .gengduo {
+  font-size: 3.33333vw;
+  height: 14.4vw;
+  text-align: center;
+  line-height: 14.4vw;
+  color: #a1a1a1;
+}
+
+#faxian .fx-main .main2 {
+  box-sizing: border-box;
+  padding-top: 5.86667vw;
+  margin-top: 2.66667vw;
+  background-color: #fff;
+}
+
+#faxian .fx-main .main2 .aa {
+  height: 4.93333vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#faxian .fx-main .main2 .aa span {
+  font-size: 4.66667vw;
+  font-weight: 600;
+}
+
+#faxian .fx-main .main2 .bb {
+  text-align: center;
+  font-size: 2.8vw;
+  line-height: 2.8vw;
+  margin-top: 2.66667vw;
+  color: #d6d6d6;
+}
+
+#faxian .fx-main .main2 ul {
+  margin-top: 5.6vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+#faxian .fx-main .main2 ul li {
+  width: 27.6vw;
+  height: 46vw;
+}
+
+#faxian .fx-main .main2 ul li .cc {
+  width: 13.33333vw;
+  height: 5.06667vw;
+  background-color: #423e3d;
+  color: #fff;
+}
+
+#faxian .fx-main .main2 ul li p:nth-of-type(1) {
+  font-size: 3.06667vw;
+}
+
+#faxian .fx-main .main2 ul li p:nth-of-type(2) {
+  margin-top: 4vw;
+}
+
+#faxian .fx-main .main2 ul li p:nth-of-type(2) span:nth-of-type(1) {
+  font-size: 2.93333vw;
+  color: #f87563;
+}
+
+#faxian .fx-main .main2 ul li p:nth-of-type(2) span:nth-of-type(2) {
+  font-size: 2.13333vw;
+  color: #c9c9c9;
+  text-decoration: line-through;
+}
+
+#faxian .fx-main .main2 ul li:nth-of-type(1) img {
+  margin-top: 5.33333vw;
+  width: 21.33333vw;
+  height: 9.06667vw;
+}
+
+#faxian .fx-main .main2 ul li:nth-of-type(1) p:nth-of-type(1) {
+  margin-top: 6.66667vw;
+}
+
+#faxian .fx-main .main2 ul li:nth-of-type(2) img {
+  margin-top: 5.33333vw;
+  width: 18.66667vw;
+  height: 10.66667vw;
+}
+
+#faxian .fx-main .main2 ul li:nth-of-type(2) p:nth-of-type(1) {
+  margin-top: 5.33333vw;
+}
+
+#faxian .fx-main .main2 ul li:nth-of-type(3) img {
+  margin-top: 5.33333vw;
+  width: 26.66667vw;
+  height: 6.66667vw;
+}
+
+#faxian .fx-main .main2 ul li:nth-of-type(3) p:nth-of-type(1) {
+  margin-top: 9.33333vw;
+}
+
+#faxian .fx-footer {
+  height: 14.26667vw;
+}
+
+#faxian .fx-footer ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #c9c9c9;
+}
+
+#faxian .fx-footer ul li {
+  color: #a1a1a1;
+  display: flex;
+  flex-direction: column;
+}
+
+#faxian .fx-footer ul li img {
+  width: 5.06667vw;
+  height: 5.06667vw;
+}
+
+#faxian .fx-footer ul li span {
+  font-size: 2.66667vw;
+}
+
+#faxian .fx-footer ul li:nth-of-type(1) {
+  color: #018fff;
+}
