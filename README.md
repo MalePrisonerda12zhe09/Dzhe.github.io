@@ -20,3 +20,6 @@
 
 ##elm
 <a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/elm/html/elm.html">饿了吗</a>
+
+##faxian
+<a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/发现/faxian/html/faxian.html">发现</a>
