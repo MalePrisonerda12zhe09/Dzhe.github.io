@@ -23,3 +23,9 @@
 
 ##faxian
 <a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/发现/faxian/html/faxian.html">发现</a>
+
+##qiuti
+<a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/3D/html/qiuti.html">3d球体</a>
+
+##zhengfangti
+<a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/3D/html/zhengfangti.html">3d正方体</a>
