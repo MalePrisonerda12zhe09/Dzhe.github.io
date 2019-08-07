@@ -29,3 +29,9 @@
 
 ##zhengfangti
 <a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/3D/html/zhengfangti.html">3d正方体</a>
+
+##allpyra
+<a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/第三周周末作业/allpyra/Allpyra/html/allpyra.html">Allpyra-移动端</a>
+
+##kaiyuanboke
+<a href="https://maleprisonerda12zhe09.github.io/Dzhe.github.io/第三周周末作业/开源博客页面/开源博客/html/kaiyuan.html">开源博客-移动端</a>
