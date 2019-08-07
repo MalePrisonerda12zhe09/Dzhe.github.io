@@ -1,0 +1,82 @@
+body {
+    background-color: #000;
+}
+
+ul {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    perspective: 2000px;
+    transform-style: preserve-3d;
+    transform: rotateX(-225deg) rotateY(-20deg);
+    animation: move 2s infinite linear;
+}
+
+ul li {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+@keyframes move {
+    to {
+        transform: rotateX(-225deg) rotateY(-20deg);
+    }
+
+    from {
+        transform: rotateX(240deg) rotateY(360deg);
+    }
+}
+
+li:nth-of-type(1) {
+    border: 2px solid gold;
+}
+
+li:nth-of-type(2) {
+    border: 2px solid red;
+    transform: rotateY(30deg);
+}
+
+li:nth-of-type(3) {
+    border: 2px solid blue;
+    transform: rotateY(60deg);
+}
+
+li:nth-of-type(4) {
+    border: 2px solid purple;
+    transform: rotateY(90deg);
+}
+
+li:nth-of-type(5) {
+    border: 2px solid greenyellow;
+    transform: rotateY(120deg);
+}
+
+li:nth-of-type(6) {
+    border: 2px solid rgb(12, 230, 66);
+    transform: rotateY(150deg);
+}
+
+li:nth-of-type(7) {
+    border: 2px solid rgb(225, 10, 233);
+    transform: rotateY(180deg);
+}
+
+li:nth-of-type(8) {
+    border: 2px solid rgb(13, 206, 231);
+    transform: rotateY(210deg);
+}
+
+li:nth-of-type(9) {
+    border: 2px solid rgb(236, 195, 10);
+    transform: rotateY(240deg);
+}
