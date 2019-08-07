@@ -1,0 +1,244 @@
+html {
+  font-size: 26.67vw;
+}
+
+body {
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#allpyra {
+  background-color: #f4f4f4;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#allpyra .all-header {
+  background: #fff url(../images/logo.png) no-repeat center;
+  box-sizing: border-box;
+  height: 0.45rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#allpyra .all-main {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+#allpyra .all-main .banner {
+  width: 3.75rem;
+  align-content: center;
+}
+
+#allpyra .all-main ul {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#allpyra .all-main ul li {
+  text-align: center;
+}
+
+#allpyra .all-main ul li img {
+  width: 0.5rem;
+}
+
+#allpyra .all-main ul li span {
+  box-sizing: border-box;
+  margin-top: 0.1rem;
+  display: block;
+}
+
+#allpyra .all-main .bg {
+  border-top: 10px solid #f4f4f4;
+  border-bottom: 10px solid #f4f4f4;
+  width: 3rem;
+  height: 0.4rem;
+  align-content: center;
+}
+
+#allpyra .all-main .main1 {
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  height: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff url(../images/bg.png) no-repeat;
+  background-size: 100% 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#allpyra .all-main .main1 p {
+  box-sizing: border-box;
+  height: 0.15rem;
+  width: 80%;
+  text-align: center;
+}
+
+#allpyra .all-main .main1 p span:nth-child(1) {
+  widows: 0.2rem;
+  height: 0.12rem;
+  border: 1px solid #ddd1a7;
+  font-size: 10px;
+}
+
+#allpyra .all-main .main1 p span:nth-child(2) {
+  font-size: 10px;
+  color: #ddd1a7;
+}
+
+#allpyra .all-main .main2 {
+  margin-top: 20px;
+}
+
+#allpyra .all-main .main2 .list1 {
+  width: 3rem;
+  height: 2rem;
+}
+
+#allpyra .all-main .main2 ul {
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#allpyra .all-main .main2 ul li {
+  width: 0.8rem;
+  height: 0.8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#allpyra .all-main .main2 ul li img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+#allpyra .all-main .main2 ul li span:nth-child(1) {
+  font-size: 0.8rem;
+  line-height: 0.1rem;
+  color: #777;
+}
+
+#allpyra .all-main .main2 ul li span:nth-child(2) {
+  display: block;
+  font-size: 0.1rem;
+  color: #000;
+}
+
+#allpyra .all-main .main2 h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#allpyra .all-main .main2 p {
+  text-align: center;
+  font-size: 0.12rem;
+}
+
+#allpyra .all-main .main2 .main2-1 {
+  background-color: #fff;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#allpyra .all-main .main2 .main2-1 li {
+  width: 1.6rem;
+  height: 2.2rem;
+}
+
+#allpyra .all-main .main2 .main2-1 li img {
+  width: 100%;
+  height: 160px;
+}
+
+#allpyra .all-main .main2 .main2-1 li p:nth-of-type(1) {
+  font-size: 0.1rem;
+}
+
+#allpyra .all-main .main2 .main2-1 li p:nth-of-type(2) span:nth-of-type(1) {
+  font-size: 0.14rem;
+  color: #e90e0e;
+}
+
+#allpyra .all-main .main2 .main2-1 li p:nth-of-type(2) {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#allpyra .all-main .main2 .main2-1 li p:nth-of-type(2) span:nth-of-type(2) {
+  font-size: 0.12rem;
+  color: #1a1919;
+}
+
+#allpyra .all-footer {
+  height: 0.65rem;
+  box-sizing: border-box;
+  border-top: 1px solid #c1c1c1;
+}
+
+#allpyra .all-footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#allpyra .all-footer ul li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#allpyra .all-footer ul li:nth-child(1) span:nth-child(1) {
+  background: url(../images/tabs.png);
+  width: 48px;
+  height: 48px;
+}
+
+#allpyra .all-footer ul li:nth-child(2) span:nth-child(1) {
+  background: url(../images/tabs.png) 0 -48px;
+  width: 48px;
+  height: 48px;
+}
+
+#allpyra .all-footer ul li:nth-child(3) span:nth-child(1) {
+  background: url(../images/tabs.png) 10px -99px;
+  width: 48px;
+  height: 48px;
+}
+
+#allpyra .all-footer ul li:nth-child(4) span:nth-child(1) {
+  background: url(../images/tabs.png) 0 -151px;
+  width: 48px;
+  height: 48px;
+}
+
+#allpyra .all-footer ul span:nth-child(2) {
+  display: block;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #c1c1c1;
+}
