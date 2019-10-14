@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>好药师网上药店</title>
+<head>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/liebiao.css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+    <div class="topimg" style="background:url('../images/main/1568257172307_11.jpg') no-repeat center center" title="东阿阿胶" alt="东阿阿胶">
+<div class="w">
+    <i class="close"></i>
+</div>
+</div>
+<div class="top">
+    <div class="w">
+    <ul class="fl">
+    <li class="a font_light icon-ad topPosition"><i>送至:</i>
+    <div id="scroll_div">
+    <span id="scroll_begin"> 请选择您的位置</span> <span id="scroll_end"></span>
+</div></li>
+    <li class="font_dark">欢迎来到好药师网上药店!</li>
+    <li><span class="font_dark n-name">登录</span> <span class="login_name_top"><i></i>,<em id="exit_top_btn">退出</em></span>
+    <span class="font_red">注册</span> <span class="font_light">客服热线: 400-648-5566</span><span class="font_light">027-84768172</span></li>
+</ul>
+<ul class="fr font_mid">
+    <li class="icon-ad requirement">我的需求</li>
+    <li class="icon-ad order">我的订单</li>
+    <li class="icon-ad pCenter">个人中心</li>
+</ul>
+</div>
+</div>
+<div class="top_mid">
+    <div class="w">
+    <div class="logo">
+    <p>
+    <a href="javascript:void(0)" class="logo_img"></a>
+</p>
+</div>
+<div class="search">
+    <div class="search_up clearflix">
+    <span id="top_search_container"><input type="text" name="" class="top-search-input" id="top_search_input" placeholder="请输入商品名称、品牌" autocomplete="off">
+    <button class="search-button btn">搜 索</button></span>
+</div>
+<div class="search_down clearflix">
+    <a target="_blank" href="">三七粉</a>
+    <a target="_blank" href="">金戈</a>
+    <a target="_blank" href="">奥利司他</a>
+    <a target="_blank" href="">舒筋健腰丸</a>
+    <a target="_blank" href="">优立通</a>
+</div>
+<div class="seach_cont search-top-pop" id="search_top_pop">
+    <div class="bd">
+    <ul>
+
+</ul>
+</div>
+</div>
+</div>
+<div class="car_list">
+    <div class="car">
+    <span class="car_red">0</span>
+</div>
+<div class="car_cont">
+    <div class="car_none">
+    <p>
+    <img src="http://design.ehaoyao.com/new_site/static/images/car_none.png">
+</p>
+    <p>购物车中还没有商品，赶紧选购吧！</p>
+</div>
+<div class="car_more">
+    <ul></ul>
+    <div class="car_js">
+    <span>共<em></em>件商品</span> 
+    <span class="btn_js">去购物车</span>
+</div>
+</div>
+</div>
+</div>
+<div class="top_coupon">
+    <div class="top_coupon01" id="couponImg"></div>
+</div>
+</div>
+</div>
+<div class="top_nav">
+    <div class="w">
+    <div class="category" id="category">
+    <p>全部商品分类</p>
+</div>
+<ul class="navigation">
+<li>
+    <a target="_blank" href="http://www.ehaoyao.com/">首页</a>
+</li>
+<li class="new-text">
+    <i></i>
+    <a target="_blank" href="">旗舰店</a>      
+</li>
+<li>
+    <a target="_blank" href="">男性健康</a>
+</li>
+<li>
+    <a target="_blank" href="">企业团购</a>
+</li>
+<li>
+    <a target="_blank" href="">老字号</a>
+</li>
+<li>
+    <a target="_blank" href="">全球购</a>
+</li>
+<li>
+    <a target="_blank" href="">健康资讯</a>
+</li>
+</ul>
+<div class="tel">客服热线：400-648-5566</div>
+</div>
+</div>
+</div>
+<div class="pro_list">
+    <div class="crumb w">
+    搜索结果：首页
+    <em> &gt; </em>金戈
+</div>
+<div class="w filter clearflix ov">
+    <div class="filter_Dosage">
+    <div class="f_title">品牌</div>
+<div class="f_cont">
+    <ul>
+    <li>金戈</li>
+</ul>
+</div>
+</div>
+<div class="filter_class">
+    <div class="f_title">分类</div>
+<div class="f_cont">
+    <ul id="edit">
+    <li>阳痿早泄</li>
+</ul>
+</div>
+</div>
+<div class="filter_class-m ">
+    <div class="f_title">药品分类</div>
+<div class="f_cont">
+    <ul>
+    <li>非处方药</li>
+    <li>处方药</li>
+</ul>
+</div>
+</div>
+<div class="filter_Dosage-p">
+    <div class="f_title">价格等级</div>
+<div class="f_cont">
+    <ul>
+        <li>0-10元</li>
+        <li>10-30元</li>
+        <li>30-50元</li>
+        <li>50-100元</li>
+        <li>100元以上</li>
+    </ul>
+</div>
+</div>
+</div>
+<div class="pad"></div>
+<div class="com w">
+        <div class="products-recommend left">
+        <h3>为您推荐</h3>
+        <ul>
+        <li>
+        <div class="s_img">
+        <img src="https://ehaoyao.oss-cn-hangzhou.aliyuncs.com/data/goodscenter/imges/set_meal_copy_102939/8a8094216c1eeba9016c45c802240f87_zfx_big0.jpg" alt="">
+</div>
+        <div class="s_name">汤臣倍健钙维生素D维生素K软胶囊200粒 中老年成人钙片液体钙</div>
+        <div class="s_price">
+        <span class="now_price">￥129.0</span> <span class="old_price">¥236.0</span>
+</div>
+</li>
+        <li>
+        <div class="s_img">
+       <img src="https://ehaoyao.oss-cn-hangzhou.aliyuncs.com/data/goodscenter/imges/set_meal_copy_60083/000000006073805d016091855d5a0cdb_zfx_big0.jpg" alt="">
+</div>
+        <div class="s_name">同仁堂三七粉200g/罐 云南三七打粉田七细粉</div>
+        <div class="s_price">
+        <span class="now_price">￥235.0</span> <span class="old_price">¥399.0</span>
+</div>
+</li>
+        <li>
+        <div class="s_img">
+        <img src="https://ehaoyao.oss-cn-hangzhou.aliyuncs.com/data/goodscenter/imges/set_meal_copy_8394/8a8094216c1eeba9016cd89ffe5e5f88_zfx_big2.jpg" alt="">
+</div>
+        <div class="s_name">合生元益生菌冲剂1.5g*26袋儿童型 活性益生菌免疫调节</div>
+        <div class="s_price">
+        <span class="now_price">￥158.0</span> <span class="old_price">¥258.0</span>
+</div>
+</li>
+        <li>
+        <div class="s_img">
+      <img src="https://ehaoyao.oss-cn-hangzhou.aliyuncs.com/data/goodscenter/imges/set_meal_copy_64452/8a8094216b938abb016b9806705c0308_zfx_big0.jpg" alt="">
+</div>
+        <div class="s_name">【送润喉糖】欧姆龙血压计8713家用上臂式电子血压计测血压仪HEM-8713</div>
+        <div class="s_price">
+        <span class="now_price">￥279.0</span> <span class="old_price">¥399.0</span>
+</div>
+</li>
+        <li>
+        <div class="s_img">
+        <img src="https://ehaoyao.oss-cn-hangzhou.aliyuncs.com/data/goodscenter/imges/set_meal_copy_36294/000000005f6da5c6015f7b8a8f57073b_zfx_big0.jpg" alt="">
+</div>
+        <div class="s_name">【送3好礼】万通筋骨贴10贴*5盒风湿关节炎贴膏跌打损伤腰间盘突出膏药贴</div>
+        <div class="s_price">
+        <span class="now_price">￥72.0</span> <span class="old_price">¥119.0</span>
+</div>
+</li>
+        <li>
+        <div class="s_img">
+        <img src="https://ehaoyao.oss-cn-hangzhou.aliyuncs.com/data/goodscenter/imges/set_meal_copy_4886/ff808081672f445901672fd0b0b700de_zfx_big1.jpg" alt="">
+</div>
+        <div class="s_name">恒明医疗烤灯特定电磁波谱治疗器TDP-T1家用台式电烤灯多功能理疗仪 俗称神灯</div>
+        <div class="s_price">
+        <span class="now_price">￥95.0</span> <span class="old_price">¥125.0</span>
+</div>
+</li>
+        <li>
+        <div class="s_img">
+       <img src="https://ehaoyao.oss-cn-hangzhou.aliyuncs.com/data/goodscenter/imges/set_meal_copy_4438/ff8080816828281b01695c26c95e69b1_zfx_big0.jpg" alt="">
+</div>
+        <div class="s_name">(赠棉签+湿巾)奇力康 银敌搽剂 30ml*3瓶 外用搽剂 银屑病皮炎等抑菌止痒</div>
+        <div class="s_price">
+        <span class="now_price">￥89.0</span> <span class="old_price">¥120.0</span>
+</div>
+</li>
+        <li>
+        <div class="s_img">
+       <img src="https://ehaoyao.oss-cn-hangzhou.aliyuncs.com/data/goodscenter/imges/set_meal_copy_43944/ff80808169710f4301697517b8ac0202_zfx_big0.jpg" alt="">
+</div>
+        <div class="s_name">希爱力 他达拉非片 5mg*28粒</div>
+        <div class="s_price">
+        <span class="now_price">￥669.0</span> <span class="old_price">¥899.0</span>
+</div>
+</li>
+        <li>
+        <div class="s_img">
+   <img src="https://ehaoyao.oss-cn-hangzhou.aliyuncs.com/data/goodscenter/imges/set_meal_copy_35695/8a8094216c1eeba9016c64e5ef3e1d2a_zfx_big0.jpg" alt="">
+</div>
+    <div class="s_name">施强 复方玄驹胶囊 0.42g*72s</div>
+    <div class="s_price">
+    <span class="now_price">￥175.0</span> <span class="old_price">¥216.0</span>
+</div>
+</li>
+    <li>
+    <div class="s_img">
+   <img src="https://ehaoyao.oss-cn-hangzhou.aliyuncs.com/data/goodscenter/imges/set_meal_copy_35963/8a8094216b6504e4016b87399f910f26_zfx_big0.jpg" alt="">
+</div>
+    <div class="s_name">（咨询立减）同溢堂 益安宁丸 112s*3瓶 </div>
+    <div class="s_price">
+    <span class="now_price">￥790.0</span> <span class="old_price">¥850.0</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="products-list">
+    <div class="ov ranking">
+    <div class="sortT">
+    <ul>
+    <li class="active">综合 </li>
+    <li class="first">价格</li>
+</ul>
+</div>
+<div class="addressBox">
+    <span>收货地</span>
+    <span class="sel_address"></span>
+<i></i>
+<div class="address-warp"></div>
+</div>
+<div class="next_day"><input type="checkbox" name="isSelf" data-value="1" id="self-support"/>仅看自营</div>
+<div class="next_day"><input type="checkbox" name="isStore" data-value="1" id="yes_goods"/>仅看有货</div>
+<div class="searchTips">共 <span>14</span>件商品</div>
+</div>
+<div id="box">
+    <ul id="list">
+        <!-- <li data-pharmacyid="25" data-productid="844856" data-groupid="80627">
+            <div class="icon"></div>
+            <div class="imgHeight">
+                <img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_80627/ff808081654369210165c620ea7335fc_zfx_mid0.jpg" alt="">
+            </div>
+            <div class="price">
+                <p class="now_price">￥460</span>
+                <p class="old_price">¥551</p>
+            </div>
+            <div class="name" title="">金戈枸橼酸西地那非片25mg*21粒+安太医玛咖喷剂10ml</div>
+            <div class="black" title="">【成人男性套餐内服+外用】金戈治疗男性勃起功能障碍，安太医玛咖喷雾情趣用品不含麻醉剂</div>
+                <div class="des">规格：25mg*21s+10ml</div>
+                <div class="discount-box">
+            </div>
+            <div class="pharmName" title="">好药师商城</div>
+            <div class="btn-box">
+                <div class="btn_car_zx">咨询药师</div>
+                <div class="btn_demand"><i></i>加入需求清单</div>
+            </div>
+        </li> -->
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/BPZ013011CLS1_244169/000000005973034e015985faaa9104f9_zfx_mid5.JPG" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥48</span>
+<p class="old_price">¥53</p>
+</div>
+<div class="name" title="金戈 枸橼酸西地那非片 50mg*1s*1板 薄膜衣">金戈 枸橼酸西地那非片 50mg*1s*1板 薄膜衣</div>
+<div class="black" title=""></div>
+<div class="des">规格：50mg*1s*1板 薄膜衣</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="842694" data-groupid="64401">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_64401/ff8080816828281b01695cb1bac669ea_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥48</span>
+<p class="old_price">¥75</p>
+</div>
+<div class="name" title="金戈 枸橼酸西地那非片(金戈) 25mg*3s">金戈 枸橼酸西地那非片(金戈) 25mg*3s</div>
+<div class="black" title=""></div>
+<div class="des">规格：25mg*3s</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="843151" data-groupid="64946">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_64946/8a8094216af8f0ff016b2bdeb4381328_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥280</span>
+<p class="old_price">¥550</p>
+</div>
+<div class="name" title="12粒)金戈 枸橼酸西地那非片 10粒+2粒">12粒)金戈 枸橼酸西地那非片 10粒+2粒</div>
+<div class="black" title="金戈治疗勃起功能障碍（白云山伟哥）">金戈治疗勃起功能障碍（白云山伟哥）</div>
+<div class="des">规格：50mg*5s*1板*2盒+1粒*2盒</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="840442" data-groupid="63239">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_63239/8a8094216af8f0ff016b402e54fd14fe_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥788</span>
+<p class="old_price">¥1350</p>
+</div>
+<div class="name" title="40粒）金戈 枸橼酸西地那非片 2盒装">40粒）金戈 枸橼酸西地那非片 2盒装</div>
+<div class="black" title=""></div>
+<div class="des">规格：50mg*5s*4板*2盒 薄膜衣</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="840440" data-groupid="63237">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_63237/8a8094216cf7514e016d612a43082e08_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥1368</span>
+<p class="old_price">¥2010</p>
+</div>
+<div class="name" title="72粒）金戈 枸橼酸西地那非片 72粒装">72粒）金戈 枸橼酸西地那非片 72粒装</div>
+<div class="black" title=""></div>
+<div class="des">规格：50mg*5s*4板*3盒+12粒 薄膜衣</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="844216" data-groupid="75490">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_75490/ff8080816828281b01695cb90b446a06_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥470</span>
+<p class="old_price">¥704</p>
+</div>
+<div class="name" title="金戈 枸橼酸西地那非片 2盒装">金戈 枸橼酸西地那非片 2盒装</div>
+<div class="black" title=""></div>
+<div class="des">规格：25mg*21s*2盒</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="829336" data-groupid="63240">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_63240/8a8094216cf7514e016d477aeb9224f6_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥479</span>
+<p class="old_price">¥1150</p>
+</div>
+<div class="name" title="24粒）金戈 枸橼酸西地那非片 20粒+4粒">24粒）金戈 枸橼酸西地那非片 20粒+4粒</div>
+<div class="black" title="得宁夏红枸杞酒125ml 金戈用于治疗勃起功能障碍（白云山 伟哥）">得宁夏红枸杞酒125ml 金戈用于治疗勃起功能障碍（白云山 伟哥）</div>
+<div class="des">规格：50mg*5粒*4板+1粒*4盒</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="842692" data-groupid="64400">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_64400/ff8080816828281b01695cb1233569e6_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥238</span>
+<p class="old_price">¥405</p>
+</div>
+<div class="name" title="金戈 枸橼酸西地那非片 25mg*21s">金戈 枸橼酸西地那非片 25mg*21s</div>
+<div class="black" title=""></div>
+<div class="des">规格：25mg*21s</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="864129" data-groupid="151445">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_151445/ff80808169710f4301697656563e03b5_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥506</span>
+<p class="old_price">¥548</p>
+</div>
+<div class="name" title="金戈枸橼酸西地那非片 5粒+神威健阳片 10盒装">金戈枸橼酸西地那非片 5粒+神威健阳片 10盒装</div>
+<div class="black" title=""></div>
+<div class="des">规格：50mg*5s*1板 薄膜衣+0.64g*12粒*10盒</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="864128" data-groupid="151346">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_151346/ff80808169710f4301697640ed6a038c_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥740</span>
+<p class="old_price">¥1020</p>
+</div>
+<div class="name" title="金戈 枸橼酸西地那非片 20粒+伍舒芳 引阳索胶囊 10盒">金戈 枸橼酸西地那非片 20粒+伍舒芳 引阳索胶囊 10盒</div>
+<div class="black" title=""></div>
+<div class="des">规格：50mg*5s*4板 薄膜衣+0.5g*10s*2板*10盒</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="844466" data-groupid="75888">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_75888/ff808081654369210165b2c98ef532d9_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥439</span>
+<p class="old_price">¥550</p>
+</div>
+<div class="name" title="(内服+外用)金戈 枸橼酸西地那非片 12粒+安太医玛咖喷剂10ml">(内服+外用)金戈 枸橼酸西地那非片 12粒+安太医玛咖喷剂10ml</div>
+<div class="black" title="金戈治疗勃起功能障碍（白云山伟哥），安太医玛咖男性外用延时，持久不含麻醉剂。">金戈治疗勃起功能障碍（白云山伟哥），安太医玛咖男性外用延时，持久不含麻醉剂。</div>
+<div class="des">规格：50mg*5粒*2盒+2粒薄膜衣+安太医10ml</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="843125" data-groupid="64904">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_64904/8a8094216c1eeba9016ccbaa69675200_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥159</span>
+<p class="old_price">¥299</p>
+</div>
+<div class="name" title="6粒）金戈 枸橼酸西地那非片 5粒+1粒（得枸杞酒+毓婷）">6粒）金戈 枸橼酸西地那非片 5粒+1粒（得枸杞酒+毓婷）</div>
+<div class="black" title="得枸杞酒125ml+毓婷避孕套(螺纹诱惑)12只  白云山伟哥">得枸杞酒125ml+毓婷避孕套(螺纹诱惑)12只 白云山伟哥</div>
+<div class="des">规格：50mg*5粒+1粒</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li>
+<li data-pharmacyid="25" data-productid="867670" data-groupid="80626">
+<div class="icon"></div>
+<div class="imgHeight">
+<img src="http://image.qumaiyao.com/data/goodscenter/imges/BPZ013046CP1_249755/0000000062b3e3050162f1a9f004292f_zfx_mid0.jpg" alt="">
+</div>
+<div class="price">
+<p class="now_price">￥837</span>
+<p class="old_price">¥1215</p>
+</div>
+<div class="name" title="金戈 枸橼酸西地那非片 3盒装">金戈 枸橼酸西地那非片 3盒装</div>
+<div class="black" title=""></div>
+<div class="des">规格：25mg*21s*3盒</div>
+<div class="discount-box">
+</div>
+<div class="pharmName" title="好药师商城">好药师商城</div>
+<div class="btn-box">
+<div class="btn_car_zx">咨询药师</div>
+<div class="btn_demand"><i></i>加入需求清单</div>
+</div>
+</li> -->
+    </ul>
+</div>
+<div class="Numberpage">
+<div class="digg">
+<a class="home-disabled">首页</a>
+<a class="disabled">&lt;</a>
+<a class="current">1</a>
+<a class="disabled">&gt;</a>
+<a class="home-disabled">尾页</a>
+<span><i>1</i>/<i class="countpage">1</i></span>
+<span class="page_up">跳转到<input type="text" placeholder="1" class="page_num" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')">页</span>
+<span><button class="btn_queren">确定</button></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="footer_boxUp">
+<div class="mod_service">
+<ul>
+<li>
+<h5>国家认证 正品保障</h5>
+<p>合法网上药店</p>
+</li>
+<li class="icon_foot_01">
+<h5>购物无忧 隐私配送</h5>
+<p>放心安全的隐私包</p>
+</li>
+<li class="icon_foot_02">
+<h5>全场满额包邮</h5>
+<p>近千个地区覆盖配送</p>
+</li>
+<li class="icon_foot_03">
+<h5>专业药师用药全程指导</h5>
+<p>售后服务客户为本</p>
+</li>
+</ul>
+</div>
+<div class="mod_help">
+<div class="help_one">
+<ul>
+<li>
+<h6>关于好药师</h6>
+<p>公司简介</p>
+<p>人才招聘</p>
+<p>广告服务</p>
+<p>经营证书</p>
+<p>联系我们</p>
+</li>
+<li>
+<h6>新手指南</h6>
+<p>客户须知</p>
+<p>购物流程</p>
+<p>付款方式</p>
+<p>常见问题解答</p>
+</li>
+<li>
+<h6>配送服务</h6>
+<p>支持配送地区</p>
+<p>在线支付</p>
+<p>隐私保护政策</p>
+<p>订单查询</p></li>
+<li>
+<h6>售后服务</h6>
+<p>退换货政策</p>
+<p>退换货流程</p>
+<p>退款说明</p>
+<p>开具发票</p>
+</li>
+<li>
+<h6>购物保障</h6>
+<p>正品保证</p>
+<p>注册协议</p>
+<p>隐私保护</p>
+<p>免责声明</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer_boxDown">
+<div class="mod_pr">
+<ul>
+<li>送货服务</li>
+<li class="picOne">正品保证</li>
+<li class="picTwo">特约商家</li>
+</ul>
+</div>
+<div class="mod_ren">
+<p>关于我们|联系我们|人才招聘|广告服务|经营证书|>快递查询</p>
+<p>互联网药品交易服务资格证书编号:京 C20140004京ICP备11029626号互联网药品信息服务资格证书:（京）-非经营性-2014-0014</p>
+<p>Copyright @ 北京好药师大药房连锁有限公司-好药师网上药店版权所有 </p>
+<p style="margin: 15px 0;">
+</p>
+</div>
+</div>
+</div>
+<div id="container"></div>
+</body>
+<script src="../js/dazhe.js"></script>
+   <script>
+        (function () {
+
+        var list = document.getElementById('list');
+        var data = [{
+            imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_80627/ff808081654369210165c620ea7335fc_zfx_mid0.jpg'],
+            name: '金戈枸橼酸西地那非片25mg*21粒+安太医玛咖喷剂10ml...',
+            price:'460',
+            oprice:'551',
+            specifications:'50mg*5s*4板*2盒 薄膜衣'
+            }, {
+                 imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/BPZ013011CLS1_244169/000000005973034e015985faaa9104f9_zfx_mid5.JPG'],
+                name: '金戈 枸橼酸西地那非片 50...*21粒+安太医玛咖喷剂10ml...',
+                price: '48',
+                oprice: '53',
+                specifications: '50mg*5s*4板*3盒+12粒 薄膜衣'
+            }, {
+                imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_64401/ff8080816828281b01695cb1bac669ea_zfx_mid0.jpg'],
+                name: '金戈枸橼酸西地那非片25mg*21粒+安太医玛咖喷剂10ml...',
+                price: '48',
+                oprice: '75',
+                specifications: '25mg*21s*2盒'
+            }, {
+                imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_64946/8a8094216af8f0ff016b2bdeb4381328_zfx_mid0.jpg'],
+                name: '12粒)金戈 枸橼酸西地那非...',
+                price: '280',
+                oprice: '550',
+                specifications: '50mg*5粒*4板+1粒*4盒'
+            }, {
+                imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_63239/8a8094216af8f0ff016b402e54fd14fe_zfx_mid0.jpg'],
+                name: '40粒）金戈 枸橼酸西地那非...',
+                price: '788',
+                oprice: '1530',
+                specifications: '25mg*21s...'
+            }, {
+                 imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_63237/8a8094216cf7514e016d612a43082e08_zfx_mid0.jpg'],
+                name: '72粒）金戈 枸橼酸西地那非...',
+                price: '1368',
+                oprice: '2010',
+                specifications: '50mg*5s*1板 薄膜衣+0.64g*1'
+            }, {
+                imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_75490/ff8080816828281b01695cb90b446a06_zfx_mid0.jpg'],
+                name: '金戈 枸橼酸西地那非片 2盒装',
+                price: '470',
+                oprice: '704',
+                specifications: '50mg*5s*4板 薄膜衣+0.5g*10'
+            }, {
+                 imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_63240/8a8094216cf7514e016d477aeb9224f6_zfx_mid0.jpg'],
+                name: '金戈 枸橼酸西地那非片 2盒装',
+                price: '479',
+                oprice: '1150',
+                specifications: '50mg*5s*4板 薄膜衣+0.5g*10'
+            },{
+                 imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_64400/ff8080816828281b01695cb1233569e6_zfx_mid0.jpg'],
+                        name: '金戈 枸橼酸西地那非片 25...',
+                        price: '238',
+                        oprice: '405',
+                        specifications: '50mg*5s*4板*2盒 薄膜衣'
+            },{
+                 imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_151445/ff80808169710f4301697656563e03b5_zfx_mid0.jpg'],
+                        name: '金戈枸橼酸西地那非片 5粒...',
+                        price: '506',
+                        oprice: '548',
+                        specifications: '50mg*5s*4板*3盒+12粒 薄膜衣'
+            },{
+                 imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_151346/ff80808169710f4301697640ed6a038c_zfx_mid0.jpg'],
+                        name: '金戈 枸橼酸西地那非片 20粒+伍舒芳 引阳索胶囊 10盒',
+                        price: '740',
+                        oprice: '1020',
+                        specifications: '25mg*21s*2盒'
+            },{
+                 imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_75888/ff808081654369210165b2c98ef532d9_zfx_mid0.jpg'],
+                        name: '内服+外用)金戈 枸橼酸西',
+                        price: '439',
+                        oprice: '550',
+                        specifications: '50mg*5粒*4板+1粒*4盒'
+            },{
+                 imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/set_meal_copy_64904/8a8094216c1eeba9016ccbaa69675200_zfx_mid0.jpg'],
+                name: '6粒）金戈 枸橼酸西地那非...',
+                price: '159',
+                oprice: '299',
+                specifications: '50mg*5粒+1粒'
+            },{
+                 imglist: ['http://image.qumaiyao.com/data/goodscenter/imges/BPZ013046CP1_249755/0000000062b3e3050162f1a9f004292f_zfx_mid0.jpg'],
+                name: '金戈 枸橼酸西地那非片 3盒装',
+                price: '837',
+                oprice: '1215',
+                specifications: '25mg*21s*3盒'
+            }];
+    // console.log(objToStr(data));
+    var html = '';
+        for (var i in data) {
+            var str = '';
+            for (var j in data[i].images) {
+
+            html += ` <li data-pharmacyid="25" data-productid="844856" data-groupid="80627" class="sli">
+            <div class="icon"></div>
+            <div class="imgHeight">
+                <img src="${data[i].imglist}" alt="">
+            </div>
+            <div class="price">
+                <p class="now_price">￥${data[i].price}</span>
+                <p class="old_price">¥${data[i].oprice}</p>
+            </div>
+            <div class="name" title="">${data[i].name}</div>
+            <div class="black" title="">【成人男性套餐内服+外用】金戈治疗男性勃起功能障碍，安太医玛咖喷雾情趣用品不含麻醉剂</div>
+                <div class="des">规格：${data[i].specifications}</div>
+                <div class="discount-box">
+            </div>
+            <div class="pharmName" title="">好药师商城</div>
+            <div class="btn-box">
+                <div class="btn_car_zx">咨询药师</div>
+                <div class="btn_demand"><i></i>加入需求清单</div>
+            </div>
+        </li>`;
+    }
+    list.innerHTML = html;
+
+    var smallpic = list.getElementsByClassName('smallpic');
+        for (var i = 0; i < smallpic.length; i++) {
+                    smallpic[i].children[0].className = 'smpic active';
+            }
+            var sspic = list.getElementsByClassName('smpic');
+            // console.log(sspic.length);
+        for (var i = 0; i < sspic.length; i++) {
+                    sspic[i].onclick = function () {
+                        this.parentNode.previousElementSibling.children[0].src = this.src;
+                        for (var i = 0; i < this.parentNode.children.length; i++) {
+                            this.parentNode.children[i].className = '';
+                        }
+                        this.className = 'smpic active';
+                    }
+                }
+                // list.innerHTML = html;
+                var alis = list.getElementsByClassName('sli');
+        for (var i = 0; i < alis.length; i++) {
+                    alis[i].index = i;
+            alis[i].onclick = function () {
+                var str = objToStr(data[this.index]);
+                // objToStr(alis[i]);
+                // console.log(objToStr(alis[i]));
+                // console.log(this.index);
+                // console.log(data[this.index]);
+                // console.log(str);
+                window.open('详情页.html?' + str);
+                console.log(str);
+            }
+        }
+    }
+        })();
+    </script>
+</html>

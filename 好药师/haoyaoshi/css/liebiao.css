@@ -1,0 +1,1823 @@
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.ov {
+    overflow: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+.font_dark {
+    color: #515151;
+}
+
+.font_mid {
+    color: #5e5e5e;
+}
+
+.font_light {
+    color: #868686;
+}
+
+.font_red {
+    color: #f43418;
+}
+
+.pad {
+    margin-top: 15px;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.crumb {
+    font-size: 14px;
+    padding-left: 5px;
+    color: #868686;
+}
+
+.crumb a {
+    color: #868686;
+    line-height: 36px;
+}
+
+.crumb_text {
+    font-size: 14px;
+    color: #181818;
+    background: url(http://design.ehaoyao.com/new_site/static/images/log-list.jpg) no-repeat center;
+    text-align: center;
+    padding-top: 217px;
+    color: #898989;
+}
+
+.crumb_text span {
+    color: #ff344d;
+    line-height: 36px;
+}
+
+.factoryAd {
+    margin: 0 auto;
+    width: 1200px;
+    height: 118px;
+    overflow: hidden;
+}
+
+.factoryAd img {
+    width: 100%;
+    height: 100%;
+}
+
+.good-list {
+    height: 47px;
+    border-top: 1px #e7e7e7 solid;
+    border-bottom: 1px #e7e7e7 solid;
+    background: #fff;
+}
+
+.good-list ul li {
+    float: left;
+    padding: 0px 1px;
+    line-height: 47px;
+    width: 90px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.good-list ul li.active {
+    background: #f7f7f7;
+}
+
+.products-recommend {
+    width: 188px;
+    border: 1px #e5e5e5 solid;
+}
+
+.products-recommend h3 {
+    font-size: 16px;
+    color: #181818;
+    padding: 15px 10px 0px 10px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.products-recommend ul {
+    padding: 10px;
+}
+
+.products-recommend ul li {
+    border-bottom: 1px #cccccc dashed;
+    padding-top: 10px;
+}
+
+.products-recommend ul li:last-child {
+    border-bottom: 0;
+}
+
+.products-recommend ul li .s_img {
+    text-align: center;
+}
+
+.products-recommend ul li .s_img img {
+    width: 148px;
+    height: 148px;
+}
+
+.products-recommend ul li .s_name {
+    color: #868686;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.s_price .now_price {
+    color: #ff2832;
+    font-size: 18px;
+}
+
+.s_price .old_price {
+    color: #8e8e8e;
+    font-size: 12px;
+    text-decoration: line-through;
+    padding-left: 10px;
+    line-height: 40px;
+}
+
+.products-list {
+    width: 990px;
+    float: right;
+}
+
+.ranking {
+    background: #f7f7f7;
+    border-top: 1px #e5e5e5 solid;
+    border-bottom: 1px #e5e5e5 solid;
+    padding: 5px 10px;
+    line-height: 26px;
+    height: 26px;
+}
+
+.sort {
+    float: left;
+}
+
+.sortT ul li {
+    float: left;
+    width: 44px;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    color: #663200;
+    padding-left: 12px;
+    border: 1px #cccccc solid;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.sortT ul li.active {
+    color: #fff;
+    background-position: 27px -46px;
+    background-color: #e4393c;
+}
+
+.sortT ul li a {
+    line-height: 24px;
+    height: 24px;
+}
+
+.sortT ul li.active a {
+    color: #fff;
+    line-height: 24px;
+}
+
+.sortT ul li.first.active.des i {
+    background: url(http://design.ehaoyao.com/new_site/static/images/rise.png) no-repeat -12px -51px;
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+}
+
+.sortT ul li.first.active.asc i {
+    background: url(http://design.ehaoyao.com/new_site/static/images/rise.png) no-repeat -12px -84px;
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+}
+
+.addressBox {
+    height: 24px;
+    border: 1px #cccccc solid;
+    width: 226px;
+    float: left;
+    margin-left: 15px;
+    font-size: 14px;
+    position: relative;
+}
+
+.addressBox span {
+    color: #978a7d;
+    padding: 0px 5px;
+    float: left;
+}
+
+.addressBox span.sel_address {
+    background: #fff;
+    display: inline-block;
+    padding: 0 5px;
+    width: 162px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 24px;
+    cursor: pointer;
+}
+
+.addressBox i {
+    background: url(http://design.ehaoyao.com/new_site/static/images/rise.png) no-repeat 0 -178px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.next_day {
+    vertical-align: middle;
+    margin-left: 20px;
+    float: left;
+    font-size: 14px;
+}
+
+.next_day input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.searchTips {
+    font-size: 14px;
+    float: right;
+    margin-right: 40px;
+    color: #181818;
+}
+
+.searchTips span {
+    font-size: 18px;
+    color: #ff344d;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+#box {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 25px;
+}
+
+#box .btn_car_zx {
+    margin: auto;
+}
+
+#box ul {
+    overflow: hidden;
+    width: 1030px;
+}
+
+#box ul li {
+    position: relative;
+    float: left;
+    width: 218px;
+    overflow: hidden;
+    margin: 0 10px 10px 0px;
+    border: 1px #eee solid;
+    padding: 0 10px;
+    height: 444px;
+}
+
+#box ul li:hover {
+    cursor: pointer;
+}
+
+#box ul li .btn_car_zx {
+    float: left;
+    width: 92px;
+    height: 26px;
+    line-height: 24px;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    font-size: 12px;
+    color: #999;
+    box-sizing: border-box;
+}
+
+#box ul li .btn_car_zx.b {
+    width: 216px;
+}
+
+#box ul li .icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/rx.png) no-repeat left top;
+    width: 46px;
+    height: 30px;
+}
+
+#box ul li .icon_double {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/rx_double.png) no-repeat left top;
+    width: 46px;
+    height: 30px;
+}
+
+#box ul li .icon-one {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/one-hour.jpg) no-repeat left top;
+    width: 71px;
+    height: 21px;
+}
+
+#box ul li .icon-more {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/more-day.jpg) no-repeat left top;
+    width: 71px;
+    height: 21px;
+}
+
+#box ul li .icon-hai {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/hai-day.jpg) no-repeat left top;
+    width: 52px;
+    height: 21px;
+}
+
+#box ul li .no-goods {
+    position: absolute;
+    top: 204px;
+    left: 0px;
+    background: #000;
+    opacity: 0.4;
+    height: 27px;
+    width: 216px;
+    color: #fff;
+    line-height: 27px;
+    padding-left: 22px;
+}
+
+#box ul li .name {
+    margin-top: 20px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#box ul li .name::before {
+    content: '';
+    display: inline-block;
+    width: 26px;
+    height: 14px;
+    margin-right: 5px;
+    vertical-align: sub;
+    background: url(http://design.ehaoyao.com/new_site/static/images/self_support.png) no-repeat center / 26px;
+}
+
+#box ul li .name.business::before {
+    background-image: url(http://design.ehaoyao.com/new_site/static/images/business.png);
+}
+
+#box ul li .black {
+    height: 18px;
+    margin-bottom: 2px;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#box ul li .pharmName {
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: #999;
+    line-height: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#box ul li .des {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#box ul li a {
+    display: block;
+}
+
+#box ul li .imgHeight {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#box ul li .imgHeight img{
+    width: 216px;
+    height: 216px;
+    display: block;
+}
+
+#box ul li .price {
+    margin-bottom: 6px;
+}
+
+.price .now_price {
+    margin-bottom: 6px;
+    color: #ff2832;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.price .now_price em {
+    font-size: 12px;
+}
+
+.price .old_price {
+    line-height: 1;
+    color: #898989;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.price .internalPurchasePrice {
+    display: inline-block;
+    line-height: 12px;
+    padding-right: 40px;
+    color: #3f2e21;
+    font-size: 12px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon_internalpurchase.png) no-repeat right center / 34px;
+}
+
+.price .original-price {
+    color: #898989;
+    font-size: 12px;
+}
+
+.hwgbtn_car {
+    position: absolute;
+    bottom: 6px;
+    height: 30px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/newcart.png) no-repeat 53px 5px;
+    cursor: pointer;
+    width: 215px;
+    line-height: 30px;
+    font-size: 14px;
+    margin: 0 auto;
+    border: 1px solid #fc354a;
+    color: #fc354a;
+    text-indent: 80px;
+    border-radius: 3px;
+}
+
+.discount-box {
+    height: 18px;
+    margin-bottom: 12px;
+    line-height: 18px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.discount-box i {
+    float: left;
+    display: inline-block;
+    height: 18px;
+    margin-right: 10px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.discount-box i:last-child {
+    margin-right: 0;
+}
+
+.discount-box .seckill {
+    width: 18px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #ff344d;
+}
+
+.discount-box .mj {
+    padding: 0 7px;
+    color: #ff344d;
+    border: 1px solid #ff344d;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.discount-box .mz {
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: #ff344d;
+    border: 1px solid #ff344d;
+    border-radius: 3px;
+}
+
+.discount-box .coupon {
+    padding: 0 9px;
+    color: #ff344d;
+    background: url(http://design.ehaoyao.com/new_site/static/images/bg_coupon.png) no-repeat center / 100% 100%;
+}
+
+.discount-box .z {
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: #ff344d;
+    border: 1px solid #ff344d;
+    border-radius: 3px;
+}
+
+.btn_car,
+.btn_demand,
+.btn_notice {
+    float: left;
+    width: 100px;
+    height: 26px;
+    line-height: 24px;
+    border-top: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    color: #ff344d;
+    font-size: 12px;
+}
+
+.btn_car i,
+.btn_demand i,
+.btn_notice i {
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    margin-right: 7px;
+    vertical-align: sub;
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon-cart.png) no-repeat center / 100%;
+}
+
+.btn_notice i {
+    width: 10px;
+    background-image: url(http://design.ehaoyao.com/new_site/static/images/icon-notice.png);
+}
+
+.btn_car_zx {
+    height: 30px;
+    border: 1px solid #458bff;
+    cursor: pointer;
+    width: 215px;
+    color: #458bff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.filter {
+    border-top: 1px #e5e5e5 solid;
+}
+
+.filter_brand {
+    color: #181818;
+    font-size: 14px;
+}
+
+.f_title {
+    width: 100px;
+    float: left;
+    text-align: center;
+    background: #f7f7f7;
+    height: 36px;
+    line-height: 36px;
+}
+
+.f_cont {
+    float: left;
+    width: 1060px;
+    line-height: 36px;
+    text-align: left;
+    padding: 0px 20px;
+    border-bottom: 1px #e5e5e5 solid;
+    height: 36px;
+    overflow: hidden;
+    position: relative;
+}
+
+.f_cont ul {
+    float: left;
+    width: 980px;
+}
+
+.f_cont ul li {
+    width: 119px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 36px;
+    line-height: 36px;
+}
+
+.f_cont .more {
+    background: #f5f5f5;
+    border-radius: 5px;
+    border: 1px #e5e5e5 solid;
+    width: 68px;
+    height: 26px;
+    line-height: 26px;
+    margin: 4px 5px;
+    float: left;
+    text-align: center;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+
+.f_cont .search {
+    display: none;
+    margin-top: 10px;
+}
+
+.f_cont .search input {
+    border: 1px #e5e5e5 solid;
+    width: 127px;
+    height: 28px;
+    color: #bebebe;
+    outline: 0;
+    padding: 0 0 0 27px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/rise.png) no-repeat 4px -200px;
+    float: left;
+}
+
+.f_cont span {
+    float: left;
+}
+
+.f_cont .btn_ss {
+    background: #ff344d;
+    height: 30px;
+    color: #fff;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.f_cont.extend {
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.f_cont.extend ul {
+    height: auto;
+    max-height: 102px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 10px 0;
+}
+
+.crumb .assortment {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.crumb .crumbSelect-item {
+    position: relative;
+    display: inline-block;
+    padding: 0 30px 0 4px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+}
+
+.crumb .crumbSelect-item em {
+    font-style: normal;
+    color: #ff0000;
+}
+
+.crumb .crumbSelect-item i {
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon_breadCrumb.png) no-repeat center;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    height: 22px;
+    text-align: center;
+}
+
+.crumb .crumbSelect-item:hover {
+    text-decoration: none;
+    color: #34495e;
+    background-color: #f3f3f3;
+}
+
+.crumb .crumbSelect-item {
+    position: relative;
+    display: inline-block;
+    padding: 0 30px 0 4px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+}
+
+.crumb .crumbSelect-item em {
+    font-style: normal;
+    color: #ff0000;
+}
+
+.nextday {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon_morrowReach.png) no-repeat left top;
+    width: 71px;
+    height: 21px;
+}
+
+.crumb .crumbSelect-item i {
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon_breadCrumb.png) no-repeat center;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    height: 22px;
+    text-align: center;
+}
+
+.crumb .crumbSelect-item:hover {
+    text-decoration: none;
+    color: #34495e;
+    background-color: #f3f3f3;
+}
+
+.crumb .assortmentT {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.crumb .crumbSelect-item_next {
+    position: relative;
+    display: inline-block;
+    padding: 0 30px 0 4px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+}
+
+.crumb .crumbSelect-item_next em {
+    font-style: normal;
+    color: #ff0000;
+}
+
+.crumb .crumbSelect-item_next i {
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon_breadCrumb.png) no-repeat center;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    height: 22px;
+    text-align: center;
+}
+
+.crumb .crumbSelect-item_next:hover {
+    text-decoration: none;
+    color: #34495e;
+    background-color: #f3f3f3;
+}
+
+.crumb .crumbSelect-item_next {
+    position: relative;
+    display: inline-block;
+    padding: 0 30px 0 4px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+}
+
+.crumb .crumbSelect-item_next em {
+    font-style: normal;
+    color: #ff0000;
+}
+
+.crumb .crumbSelect-item_next i {
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon_breadCrumb.png) no-repeat center;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    height: 22px;
+    text-align: center;
+}
+
+.crumb .crumbSelect-item_next:hover {
+    text-decoration: none;
+    color: #34495e;
+    background-color: #f3f3f3;
+}
+
+.none_text {
+    margin-left: 10px;
+}
+
+.crumb .assortment .scrollBox {
+    display: none;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    width: 100%;
+    max-height: 270px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 2;
+    overflow-y: auto;
+}
+
+.crumb .assortment .scrollBox a {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-bottom: 0;
+}
+
+.crumb a:hover {
+    text-decoration: underline;
+    color: #f15a28;
+    cursor: pointer;
+}
+
+.big_width {
+    width: 1200px;
+    margin-left: 0;
+    margin: 0 auto;
+    float: inherit;
+}
+
+.new_list ul {
+    width: 1220px;
+}
+
+.new_list ul li {
+    width: 210px;
+    position: relative;
+}
+
+.new_list ul li .icon {
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.new_list ul li .btn_car,
+.new_list ul li .btn_car_zx {
+    width: 210px;
+}
+
+.Pharmacy {
+    overflow: hidden;
+    width: 100%;
+    background: url(http://design.ehaoyao.com/new_site/static/images/one_icon01.jpg) no-repeat center top;
+    height: 166px;
+}
+
+.Pharmacy_cont {
+    width: 1200px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/one_icon02.jpg) no-repeat;
+    height: 146px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+
+.Pharmacy_left {
+    float: left;
+    background: url(http://design.ehaoyao.com/new_site/static/images/home-icon.png) no-repeat 10px 10px;
+    padding-left: 80px;
+    height: 75px;
+    width: 590px;
+    margin: 12px 0 0 20px;
+}
+
+.Pharmacy_left p {
+    font-size: 18px;
+    color: #181818;
+    line-height: 26px;
+    padding-top: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.Pharmacy_left p.sm_text {
+    font-size: 14px;
+    padding-top: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Pharmacy_mid {
+    position: absolute;
+    bottom: 20px;
+    left: 95px;
+    overflow: hidden;
+    width: 1013px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.Pharmacy_mid p {
+    float: left;
+}
+
+.Pharmacy_mid p span {
+    margin: 0px 5px;
+}
+
+.Pharmacy_mid p span.mj_icon {
+    color: #fff;
+    width: 29px;
+    display: inline-block;
+    text-align: center;
+    background: url(http://design.ehaoyao.com/new_site/static/images/mj.jpg) no-repeat;
+    height: 15px;
+    line-height: 15px;
+}
+
+.Pharmacy_mid p span.mz_icon {
+    color: #fff;
+    width: 29px;
+    display: inline-block;
+    text-align: center;
+    background: url(http://design.ehaoyao.com/new_site/static/images/mz.jpg) no-repeat;
+    height: 15px;
+    line-height: 15px;
+}
+
+.Pharmacy_mid p span.fj_icon {
+    color: #fff;
+    width: 29px;
+    display: inline-block;
+    text-align: center;
+    background: url(http://design.ehaoyao.com/new_site/static/images/fj.png) no-repeat;
+    height: 15px;
+    line-height: 15px;
+}
+
+.Pharmacy_mid p span.xdlj_icon {
+    color: #fff;
+    width: 53px;
+    display: inline-block;
+    text-align: center;
+    background: url(http://design.ehaoyao.com/new_site/static/images/xdlj.png) no-repeat;
+    height: 15px;
+    line-height: 15px;
+}
+
+.Pharmacy_right {
+    float: right;
+    background: url(http://design.ehaoyao.com/new_site/static/images/one_tel.png) no-repeat -4px 10px;
+    padding-left: 86px;
+    margin: 15px 20px 0 0;
+    width: 395px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.Pharmacy_right p {
+    line-height: 20px;
+    color: #181818;
+    font-size: 14px;
+}
+
+.Pharmacy_right p span {
+    color: #898989;
+    width: 70px;
+    display: inline-block;
+    float: left;
+}
+
+.Pharmacy_right p span.address_pham {
+    cursor: pointer;
+    float: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 324px;
+}
+
+.Pharmacy_bg {
+    width: 100%;
+    background: url(http://design.ehaoyao.com/new_site/static/images/Pharmacy_bg.jpg) no-repeat center;
+    margin: 50px auto;
+    margin-bottom: 100px;
+}
+
+.Pharmacy_bg p {
+    font-size: 16px;
+    color: #898989;
+    text-align: center;
+    padding-top: 400px;
+}
+
+.Pharmacy_coupon {
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px #e5e5e5 solid;
+    padding-bottom: 10px;
+}
+
+.Pharmacy_coupon .coupon_cont {
+    position: relative;
+    width: 100%;
+    height: 156px;
+    overflow: hidden;
+}
+
+.Pharmacy_coupon .btn-turnPage {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    width: 18px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #000;
+    -moz-opacity: .5;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Pharmacy_coupon .btn-turnPage {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    width: 14px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #000;
+    -moz-opacity: .5;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Pharmacy_coupon .btn-turnPage.disabled {
+    background-color: #ddd;
+}
+
+.Pharmacy_coupon .prePage {
+    left: 0;
+}
+
+.Pharmacy_coupon .btn-turnPage:hover {
+    text-decoration: none;
+}
+
+.Pharmacy_coupon .nextPage {
+    right: 3px;
+}
+
+.Pharmacy_coupon ul {
+    padding: 0 10px;
+}
+
+.Pharmacy_coupon ul li {
+    width: 234px;
+    position: relative;
+    height: 150px;
+    float: left;
+    margin-right: 3px;
+}
+
+.Pharmacy_coupon ul li.coupon-list-01 {
+    background: url(http://design.ehaoyao.com/new_site/static/images/pham_coupon01.jpg) no-repeat;
+}
+
+.Pharmacy_coupon ul li.coupon-list-02 {
+    background: url(http://design.ehaoyao.com/new_site/static/images/pham_coupon02.jpg) no-repeat;
+}
+
+.Pharmacy_coupon ul li.coupon-list-03 {
+    background: url(http://design.ehaoyao.com/new_site/static/images/pham_coupon03.jpg) no-repeat;
+}
+
+.Pharmacy_coupon ul li.coupon-list-04 {
+    background: url(http://design.ehaoyao.com/new_site/static/images/pham_coupon04.jpg) no-repeat;
+}
+
+.Pharmacy_coupon ul li.coupon-list-05 {
+    background: url(http://design.ehaoyao.com/new_site/static/images/pham_coupon05.jpg) no-repeat;
+}
+
+.coupon_up {
+    height: 45px;
+}
+
+.coupon_up .c_left {
+    float: left;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.coupon_up .c_left span {
+    font-size: 28px;
+}
+
+.coupon_up .c_right {
+    float: right;
+    font-size: 14px;
+    color: #ff344d;
+    padding: 17px 0 0 0;
+    width: 68px;
+    margin-right: 18px;
+    text-align: center;
+}
+
+.coupon_down {
+    height: 66px;
+    padding: 10px;
+}
+
+.coupon_down .c_left p {
+    font-size: 12px;
+    color: #9c9d9f;
+    line-height: 20px;
+}
+
+.c_list {
+    position: absolute;
+    top: 75px;
+    right: 24px;
+    color: #868686;
+}
+
+.coupon_down .c_left p.con_red {
+    color: #f43418;
+    font-size: 14px;
+}
+
+.btn_coupon {
+    line-height: 24px;
+    height: 24px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.coupon-list-01 .btn_coupon {
+    border: 1px solid #ff344d;
+    color: #ff344d;
+}
+
+.coupon-list-01 .coupon_up .c_right {
+    color: #ff344d;
+}
+
+.coupon-list-01 .coupon_down .c_left .con_red {
+    color: #ff344d;
+    font-size: 14px;
+}
+
+.coupon-list-02 .btn_coupon {
+    border: 1px solid #06b5fe;
+    color: #06b5fe;
+}
+
+.coupon-list-02 .coupon_up .c_right {
+    color: #06b5fe;
+}
+
+.coupon-list-02 .coupon_down .c_left .con_red {
+    color: #06b5fe;
+    font-size: 14px;
+}
+
+.coupon-list-03 .btn_coupon {
+    border: 1px solid #478afd;
+    color: #478afd;
+}
+
+.coupon-list-03 .coupon_up .c_right {
+    color: #478afd;
+}
+
+.coupon-list-03 .coupon_down .c_left .con_red {
+    color: #478afd;
+    font-size: 14px;
+}
+
+.coupon-list-04 .btn_coupon {
+    border: 1px solid #9059ff;
+    color: #9059ff;
+}
+
+.coupon-list-04 .coupon_up .c_right {
+    color: #9059ff;
+}
+
+.coupon-list-04 .coupon_down .c_left .con_red {
+    color: #9059ff;
+    font-size: 14px;
+}
+
+.coupon-list-05 .btn_coupon {
+    border: 1px solid #c8c8c8;
+    color: #c8c8c8;
+}
+
+.coupon-list-05 .coupon_up .c_right {
+    color: #c8c8c8;
+}
+
+.coupon-list-05 .coupon_down .c_left .con_red {
+    color: #c8c8c8;
+    font-size: 14px;
+}
+
+.coupon-list-05 .isCoupon {
+    position: absolute;
+    background: url(http://design.ehaoyao.com/new_site/static/images/pham_couponylq.png);
+    width: 51px;
+    height: 51px;
+    right: 26px;
+    top: 29px;
+}
+
+.re_class {
+    width: 100%;
+}
+
+.re_list ul li.re_recomd {
+    color: #f43418;
+}
+
+.re_list ul li.re_recomd a {
+    color: #f43418;
+}
+
+.re_list {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.re_list ul li {
+    float: left;
+    color: #898989;
+    width: 120px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.crumb-search {
+    margin-bottom: 10px;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.crumb-search .all-text {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.crumb-search input {
+    border: 1px #e5e5e5 solid;
+    width: 127px;
+    height: 28px;
+    color: #bebebe;
+    outline: 0;
+    padding: 0 0 0 27px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/rise.png) no-repeat 4px -200px;
+}
+
+.crumb-search span {
+    float: left;
+}
+
+.crumb-search .btn_ss {
+    background: #ff344d;
+    height: 30px;
+    color: #fff;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    padding: 0;
+}
+
+.Numberpage {
+    overflow: hidden;
+    margin: 0 auto;
+    margin: 20px 0;
+}
+
+.digg {
+    padding: 3px 0 3px 0;
+    text-align: center;
+    float: right;
+}
+
+.digg a.disabled {
+    border: #ccc 1px solid;
+    margin: 2px;
+    color: #ccc;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    background: #f5f5f5;
+    font-size: 14px;
+}
+
+.digg span.disabled {
+    border: #ccc 1px solid;
+    margin: 2px;
+    color: #ccc;
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    background: #f5f5f5;
+    font-size: 14px;
+}
+
+.digg a.home-disabled {
+    border: #ccc 1px solid;
+    margin: 2px;
+    color: #cacaca;
+    width: 45px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.digg .current {
+    border: #ff344d 1px solid;
+    font-weight: bold;
+    background: #ff344d;
+    color: #fff;
+    width: 30px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.digg a.noBorder {
+    border: none;
+    cursor: default;
+}
+
+.digg a {
+    border: #ccc 1px solid;
+    text-decoration: none;
+    color: #424242;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background: #fff;
+    font-size: 14px;
+    margin: 0px 2px;
+}
+
+.digg .down {
+    border: #e0e0e0 1px solid;
+    margin: 2px;
+    color: #424242;
+    width: 60px;
+    height: 30px;
+    background: #fff;
+    font-size: 14px;
+}
+
+.digg span.page_up input {
+    border: #e0e0e0 1px solid;
+    margin: 0 5px;
+    color: #424242;
+    width: 45px;
+    height: 30px;
+    background: #fff;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -3px;
+}
+
+.digg span .btn_queren {
+    font-size: 14px;
+    color: #181818;
+    border: #e0e0e0 1px solid;
+    background: none;
+    width: 40px;
+    line-height: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.digg span .disabled {
+    background: #f5f5f5;
+}
+
+.digg span.link input {
+    width: 50px;
+    height: 36px;
+    text-align: center;
+    border: 1px #e0e0e0 solid;
+    margin: 0px 2px;
+}
+
+.linkBtn {
+    background: #fff;
+    border: #e0e0e0 1px solid;
+    width: 55px;
+    height: 36px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.lsuccess {
+    padding: 15px 20px;
+}
+
+.lsuccess h3 {
+    color: #34495e;
+    font-weight: normal;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    padding-left: 60px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon_tips_yes.png) no-repeat left center;
+}
+
+.lsuccess p {
+    font-size: 16px;
+    padding: 20px 10px;
+}
+
+.default_img {
+    background: url(http://design.ehaoyao.com/new_site/static/images/default_img.jpg) no-repeat left center;
+}
+
+.default_img1 {
+    background: url(http://design.ehaoyao.com/new_site/static/images/default_img.png) no-repeat left center;
+}
+
+.noResult {
+    background: #fff2d9;
+    border: 1px solid #ffe4b2;
+    height: 100px;
+    line-height: 100px;
+    font-size: 16px;
+    color: #1b1b1b;
+    margin: 10px auto 15px;
+}
+
+.noResult i {
+    float: left;
+    display: block;
+    width: 86px;
+    height: 100px;
+    margin: 0 37px 0 48px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/noresult.png) no-repeat left center;
+}
+
+.noResult b {
+    color: #ff334c;
+}
+
+.dialogBox_notice {
+    width: 510px;
+}
+
+.dialogBox_notice .cart_cont .tipcontent {
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #898989;
+}
+
+.dialogBox_notice .cart_cont .input-box {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 37px;
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+.dialogBox_notice .cart_cont .input-box label {
+    display: inline-block;
+    width: 80px;
+    color: #898989;
+}
+
+.dialogBox_notice .cart_cont .input-box input {
+    width: 280px;
+    height: 40px;
+    padding-left: 18px;
+    line-height: 40px;
+    color: #484848;
+    font-size: 16px;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.dialogBox_notice .cart_cont .input-box .num {
+    width: 60px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.dialogBox_notice .cart_cont .input-box button {
+    width: 40px;
+    height: 40px;
+    background: #ececec;
+    border: 1px solid #cdcdcd;
+}
+
+.dialogBox_notice .cart_cont .input-box button:nth-of-type(1) {
+    margin-right: 10px;
+}
+
+.dialogBox_notice .cart_cont .input-box button:nth-of-type(2) {
+    margin-left: 10px;
+}
+
+.dialogBox_notice .cart_cont .cart-btns {
+    padding-left: 0;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.dialogBox_notice .cart_cont .cart-btns .btn_ok {
+    width: 237px;
+}
+
+
+
+.box {
+    padding: 0px 50px;
+
+}
+
+#ul1 {
+    height: 800px;
+    overflow: hidden;
+}
+
+.li1 {
+    margin: 20px;
+    width: 222px;
+    height: 362px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.li1:hover {
+    border: 1px solid red;
+}
+
+.tu1 {
+    cursor: pointer;
+    width: 222px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.im1 {
+    width: 220px;
+    height: 200px;
+}
+
+.im1:hover+.p1 {
+    bottom: 0px;
+}
+
+.p1 {
+    width: 221px;
+    height: 38px;
+    position: absolute;
+    bottom: -38px;
+    padding: 0px 10px;
+    background-color: orange;
+    opacity: 0.5;
+    transition: all 0.5s;
+
+}
+
+.p1 .span1 {
+    font-size: 18px;
+    line-height: 38px;
+    color: #ededed;
+}
+
+.p1 span:nth-child(2) {
+    float: right;
+}
+
+.ul2 {
+    width: 222px;
+    height: 30px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 0px 10px;
+}
+
+.ul2 img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.active {
+    border: 1px solid orangered;
+}
+
+.price {
+    width: 220px;
+    height: 20px;
+    padding: 0px 10px;
+}
+
+.price span {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.sp1 {
+    color: #ff4400;
+}
+
+.spa {
+    font-size: 12px;
+    color: #888;
+    line-height: 12px;
+    padding: 0px 10px;
+}
+
+.spa1 {
+    text-decoration: line-through;
+
+}
+
+.sp1::before {
+    content: "￥"
+}
+
+.price span:nth-child(2) {
+    color: #fff;
+    background-color: #ff4400;
+}
+
+.price span:nth-child(3) {
+    color: #88aaaa;
+    float: right;
+}
+
+.h4-a {
+    margin-top: 2px;
+    padding: 0px 10px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3d3d3d;
+    cursor: pointer;
+
+}
+
+.dianming {
+    height: 14px;
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 0px 10px;
+}
+
+.tupiao {
+    color: #ff4400;
+}
+
+.dianpu {
+    color: #888;
+}
+
+.adr {
+    color: #888888;
+    float: right;
+}
+
+.ul3 {
+    margin-top: 10px;
+    padding: 0px 10px;
+    width: 222px;
+    height: 18px;
+}
+
+.li3 {
+    float: left;
+}
+
+.li3 .a3 img {
+    margin-right: 10px;
+}
+
+.li3-1 .a3 {
+    color: #1c9eff;
+    float: right;
+    font-size: 14px;
+}
+
+#pages span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background: #C2C2C2;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sp11 {
+    margin-right: 100px;
+}
+
+#ul3 {
+    list-style: none;
+    position: absolute;
+    top: 3px;
+    left: 93px;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    display: none;
+    cursor: pointer;
+}

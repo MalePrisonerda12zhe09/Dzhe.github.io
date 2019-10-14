@@ -1,0 +1,1261 @@
+.clearflix {
+    clear: both;
+}
+
+.mt20 {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.elevator {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 40px;
+    width: 34px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.elevator li {
+    width: 34px;
+    height: 36px;
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+    line-height: 34px;
+    background: #626262;
+    color: #fff;
+    cursor: pointer;
+}
+
+.elevator a {
+    display: block;
+    margin: 0 auto;
+    width: 34px;
+    height: 32px;
+    line-height: 16px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    color: #fff;
+    padding: 2px 0;
+}
+
+.elevator .dh {
+    font-size: 12px;
+    color: #fff;
+    background: #ff0036;
+    width: 34px;
+    height: 36px;
+    border-bottom: 1px #fff solid;
+    text-align: center;
+    line-height: 36px;
+}
+
+.elevator p.rTop {
+    border-bottom: 0;
+    background: #acacac;
+}
+
+.elevator li.hover0,
+.elevator li.cur0 {
+    background-color: #28c4af;
+}
+
+.elevator li.hover1,
+.elevator li.cur1 {
+    background-color: #c18311;
+}
+
+.elevator li.hover2,
+.elevator li.cur2 {
+    background-color: #7d61ab;
+}
+
+.elevator li.hover3,
+.elevator li.cur3 {
+    background-color: #f96161;
+}
+
+.elevator li.hover4,
+.elevator li.cur4 {
+    background-color: #3daff7;
+}
+
+.elevator p.rTop {
+    background-color: #acacac;
+}
+
+.elevator li.hover a,
+.elevator li.cur a {
+    display: none;
+    color: #fff;
+}
+
+.elevator li.hover a.etitle,
+.elevator li.cur a.etitle,
+.elevator p.rTop a {
+    display: block;
+}
+
+.elevator p.rTop i {
+    background: url(http://design.ehaoyao.com/new_site/static/images/elever.png) no-repeat 10px 3px;
+    display: inline-block;
+    height: 15px;
+    width: 34px;
+}
+
+.elevator a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.elevator li a.etitle {
+    display: none;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.mid-banner {
+    width: 1200px;
+    position: relative;
+}
+
+.categoryBox {
+    height: 430px;
+}
+
+.category-add {
+    position: absolute;
+    width: 1200px;
+    height: 430px;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+}
+
+.category-add ul {
+    width: 1200px;
+}
+
+.category-add ul li {
+    text-align: center;
+}
+
+.category-add ul li img {
+    width: 1200px;
+    height: 430px;
+}
+
+.category-add .pos {
+    position: absolute;
+    bottom: 15px;
+    height: 30px;
+    left: 50%;
+    overflow: hidden;
+}
+
+.category-add .pos .shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 24px;
+}
+
+.category-add .pos .dots {
+    margin: 7px 0 0;
+    padding: 0 10px 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.category-add .pos .dots li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 25px;
+    height: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    color: #ff344d;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.category-add .pos .dots li.active {
+    background-color: #b2b2b2;
+}
+
+.notice {
+    width: 226px;
+    background: #fff;
+    height: 414px;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    top: 8px;
+}
+
+.notice img {
+    width: 242px;
+    height: 50px;
+}
+
+.notice .n_cont {
+    width: 100%;
+    height: 160px;
+    border-bottom: 1px #efefef solid;
+}
+
+.notice .n_ad {
+    padding: 5px;
+}
+
+.notice .n_ad img {
+    width: 216px;
+    height: 112px;
+}
+
+.n_tab {
+    position: relative;
+}
+
+.n_tab ul {
+    padding: 0 5px;
+    clear: both;
+    overflow: hidden;
+}
+
+.n_tab li {
+    width: 40px;
+    float: left;
+    margin: 0 15px 0 10px;
+    text-align: center;
+    color: #34495e;
+    line-height: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+}
+
+.n_tab li i {
+    position: absolute;
+    top: 0px;
+    left: 52px;
+    height: 30px;
+    display: inline-block;
+    font-size: 16px;
+    color: #c9c9c9;
+}
+
+.n_tab li.active {
+    color: #ff344d;
+    border-bottom: 3px #ff344d solid;
+}
+
+.n_tab a {
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    color: #868686;
+}
+
+.n_item1,
+.n_item2 {
+    margin-top: 5px;
+    height: 123px;
+    overflow: hidden;
+}
+
+.n_item1 li,
+.n_item2 li {
+    max-height: 40px;
+    line-height: 20px;
+    padding-left: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 10px;
+    color: #666;
+}
+
+.n_item1 li i,
+.n_item2 li i {
+    color: #e55e65;
+    padding: 0 5px;
+}
+
+.good-service .n_server {
+    padding: 0 10px;
+    margin-top: 5px;
+}
+
+.good-service .n_server li {
+    float: left;
+    width: 51px;
+    padding: 0px 8px 0px 8px;
+    text-align: center;
+    color: #868686;
+}
+
+.good-service .n_server li i {
+    background: url(http://design.ehaoyao.com/new_site/static/images/server_icon.png) no-repeat scroll 6px 12px;
+    display: block;
+    width: 51px;
+    height: 36px;
+}
+
+.good-service .n_server li .ntab_img01 {
+    background-position: 6px 0px;
+}
+
+.good-service .n_server li .ntab_img02 {
+    background-position: -62px 0px;
+}
+
+.good-service .n_server li .ntab_img03 {
+    background-position: -131px 0px;
+}
+
+.good-service .n_server li .ntab_img04 {
+    background-position: 6px -58px;
+}
+
+.good-service .n_server li .ntab_img05 {
+    background-position: -62px -58px;
+}
+
+.good-service .n_server li .ntab_img06 {
+    background-position: -131px -58px;
+}
+
+.in_pharmacist {
+    margin-top: 20px;
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+}
+
+.in_pharmacist .cont {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    background: #fff;
+    border-top: 1px #ffda91 solid;
+}
+
+.in_pharmacist .cont li {
+    text-align: center;
+    float: left;
+    width: 200px;
+    padding-top: 26px;
+    height: 234px;
+    position: relative;
+}
+
+.in_pharmacist .cont li .icon-title {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 33px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon-title.png) no-repeat;
+    color: #fff;
+    line-height: 26px;
+}
+
+.in_pharmacist .cont li a {
+    border-right: 1px #f8f8f8 solid;
+    display: block;
+}
+
+.in_pharmacist .cont li a img {
+    width: 160px;
+    height: 160px;
+}
+
+.in_pharmacist .cont li p {
+    color: #ff344d;
+    padding: 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 18px;
+    text-align: left;
+}
+
+.in_pharmacist .cont li p.in_name {
+    color: #484848;
+    font-size: 12px;
+    cursor: pointer;
+    max-height: 36px;
+    overflow: hidden;
+}
+
+.in_pharmacist .cont li p span {
+    font-size: 12px;
+}
+
+.in_pharmacist .cont li p i {
+    font-size: 12px;
+    color: #999999;
+    text-decoration: line-through;
+    padding-left: 15px;
+}
+
+.in_pharmacist .seckill {
+    height: 36px;
+}
+
+.in_pharmacist .seckill .red_strip {
+    line-height: 36px;
+    color: #fff;
+    font-size: 18px;
+    width: 105px;
+    height: 36px;
+    text-align: right;
+    padding: 0 20px;
+    display: inline-block;
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon-seckill.png) no-repeat 18px 6px #ff334c;
+}
+
+.in_pharmacist .seckill .s-more {
+    float: right;
+    background: url(http://design.ehaoyao.com/new_site/static/images/more-rigth.png) no-repeat center;
+    width: 124px;
+    height: 29px;
+    padding-right: 32px;
+    cursor: pointer;
+}
+
+.seckill-start {
+    float: left;
+    margin-left: 34px;
+    color: #444444;
+    line-height: 26px;
+}
+
+.seckill-start .seckill_go {
+    display: inline-block;
+}
+
+.seckill-start .seckill_go #seckill_d {
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.seckill-start .seckill_go #seckill_h {
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.seckill-start .seckill_go #seckill_m {
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.seckill-start .seckill_go #seckill_s {
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.seckill-start .seckill_go #seckill_m {
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.seckill-start .seckill_go i {
+    padding: 0 2px;
+    font-size: 16px;
+    color: #000;
+}
+
+.seckill-start .contText {
+    padding-left: 10px;
+}
+
+.cont .btn_zx {
+    background: url(http://design.ehaoyao.com/new_site/static/images/ys_btn.png) no-repeat;
+    width: 181px;
+    height: 41px;
+    border: none;
+}
+
+.in_pharmacist .btn-turnPage {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #000;
+    -moz-opacity: .5;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.in_pharmacist .btn-turnPage .disabled {
+    background-color: #ddd;
+}
+
+.in_pharmacist .btn-turnPage :hover {
+    text-decoration: none;
+}
+
+.in_pharmacist .prePage {
+    left: 0;
+}
+
+.in_pharmacist .nextPage {
+    right: 3px;
+}
+
+.in_pharmacist .disabled {
+    background-color: #ddd;
+}
+
+.activiy_tab {
+    margin-top: 10px;
+}
+
+.ac_tab i {
+    position: absolute;
+    top: 0px;
+    left: 83px;
+    height: 30px;
+    display: inline-block;
+    font-size: 16px;
+    color: #787878;
+}
+
+.ac_item {
+    width: 1280px;
+}
+
+.ac_tab ul li {
+    line-height: 40px;
+    float: left;
+    width: 82px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 20px;
+    color: #787878;
+    cursor: pointer;
+    position: relative;
+}
+
+.ac_tab i {
+    padding: 0 5px;
+    font-style: normal;
+}
+
+.ac_tab ul li.active {
+    border-bottom: 3px #ff344d solid;
+    color: #ff344d;
+}
+
+.ac_cont {
+    background: #f5f5f5;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.ac_cont .ac_item li {
+    float: left;
+    padding: 10px 12px 0px 0px;
+    width: 230px;
+    height: 221x;
+}
+
+.ac_cont .ac_item li img {
+    width: 230px;
+    height: 221px;
+}
+
+.w_ad {
+    margin-top: 10px;
+}
+
+.index-ad {
+    margin-top: 20px;
+}
+
+.ad img {
+    width: 1200px;
+    height: 103px;
+}
+
+.floor_list {
+    overflow: hidden;
+    width: 100%;
+}
+
+.floor_list .floor_left {
+    width: 595px;
+    height: 681px;
+    float: left;
+    overflow: hidden;
+    margin-top: 18px;
+}
+
+.floor_list .othercolor1 {
+    float: right;
+}
+
+.floor_list .othercolor1 .con_down .tab-title {
+    background: #dcf7f5;
+}
+
+.floor_list .othercolor1 .con_down .des {
+    color: #999;
+}
+
+.floor_list .othercolor1 .hot-down .cont-prduct .des {
+    color: #999;
+}
+
+.floor_list .othercolor2 .hot-cont .tab-title {
+    background: #e6f0ff;
+}
+
+.floor_list .othercolor2 .hot-cont .des {
+    color: #999;
+}
+
+.floor_list .othercolor2 .hot-down .cont-prduct .des {
+    color: #999;
+}
+
+.floor_list .othercolor3 {
+    float: right;
+}
+
+.floor_list .othercolor3 .hot-cont .tab-title {
+    background: #fff4ee;
+}
+
+.floor_list .othercolor3 .hot-cont .des {
+    color: #999;
+}
+
+.floor_list .othercolor3 .hot-down .cont-prduct .des {
+    color: #999;
+}
+
+.floor_list .othercolor4 .hot-cont .tab-title {
+    background: #ffebeb;
+}
+
+.floor_list .othercolor4 .hot-cont .des {
+    color: #999;
+}
+
+.floor_list .othercolor4 .hot-down .cont-prduct .des {
+    color: #999;
+}
+
+.floor_list .othercolor5 {
+    float: right;
+}
+
+.floor_list .othercolor5 .hot-cont .tab-title {
+    background: #e6f0ff;
+}
+
+.floor_list .othercolor5 .hot-cont .des {
+    color: #999;
+}
+
+.floor_list .othercolor5 .hot-down .cont-prduct .des {
+    color: #999;
+}
+
+.hot-wap .hot-title {
+    width: 594px;
+    height: 64px;
+}
+
+.hot-wap .hot-title h2 {
+    width: 123px;
+    float: left;
+    color: #fff;
+    line-height: 64px;
+    padding-left: 68px;
+}
+
+.hot-wap .hot-title .tab-title {
+    height: 42px;
+    width: 372px;
+    color: #666;
+    padding: 10px 15px;
+    float: right;
+}
+
+.hot-wap .hot-title .tab-title a {
+    line-height: 20px;
+    padding: 0 2px;
+    color: #666;
+    width: 65px;
+    display: inline-block;
+}
+
+.hot-wap .hot-title .tab-title a:hover {
+    color: #ff344d;
+}
+
+.hot-wap .con_down {
+    float: left;
+    width: 404px;
+}
+
+.hot-wap .con_down li {
+    float: left;
+    padding: 9px 20px 2px 20px;
+    width: 161px;
+    background: #fff;
+    margin: 0 1px 1px 0;
+    height: 190px;
+}
+
+.hot-wap .con_down li a:hover {
+    color: ##ff344d;
+}
+
+.hot-wap .con_down li .name {
+    font-size: 14px;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+.hot-wap .con_down li .price {
+    font-size: 16px;
+    color: #ff344d;
+    line-height: 26px;
+}
+
+.hot-wap .con_down li .price em {
+    font-size: 12px;
+    font-style: normal;
+}
+
+.hot-wap .con_down li .des {
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hot-wap .con_down li .imgHeight {
+    text-align: center;
+}
+
+.hot-wap .con_down li .imgHeight img {
+    width: 120px;
+    height: 120px;
+}
+
+.hot-wap .down-img {
+    height: 404px;
+    width: 191px;
+    float: left;
+}
+
+.hot-wap .down-img img {
+    width: 191px;
+    height: 404px;
+}
+
+.hot-down .cont-prduct ul {
+    padding-left: 1px;
+}
+
+.hot-down .cont-prduct li {
+    float: left;
+    padding: 15px 16px 15px 16px;
+    width: 264px;
+    background: #fff;
+    margin: 0px 1px 1px 0px;
+}
+
+.hot-down .cont-prduct li .pro-left {
+    float: left;
+    width: 144px;
+}
+
+.hot-down .cont-prduct li .pro-left a:hover {
+    color: #ff344d;
+}
+
+.hot-down .cont-prduct li .pro-left .name {
+    font-size: 14px;
+    color: #444;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.hot-down .cont-prduct li .pro-left .price {
+    font-size: 16px;
+    color: #ff344d;
+    line-height: 26px;
+}
+
+.hot-down .cont-prduct li .pro-left .price em {
+    font-size: 12px;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.hot-down .cont-prduct li .pro-left .des {
+    font-size: 12px;
+    color: #ff9900;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hot-down .cont-prduct li .imgHeight {
+    text-align: center;
+    float: right;
+}
+
+.hot-down .cont-prduct li .imgHeight img {
+    width: 120px;
+    height: 120px;
+}
+
+.hot-down .brand_icon {
+    background: #fff;
+    overflow: hidden;
+    clear: both;
+    height: 62px;
+}
+
+.hot-down .brand_icon a {
+    padding: 7px 7px 0 7px;
+    width: 100px;
+    display: inline-block;
+}
+
+.hot-down .brand_icon img {
+    width: 100px;
+    height: 45px;
+}
+
+.other-product {
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 20px;
+}
+
+.other-product h2 {
+    width: 100%;
+    height: 38px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background: url(http://design.ehaoyao.com/new_site/static/images/last-title.png) no-repeat center 0;
+}
+
+.other-product ul {
+    overflow: hidden;
+    width: 1201px;
+}
+
+.other-product ul li {
+    float: left;
+    width: 239px;
+    overflow: hidden;
+    position: relative;
+    height: 342px;
+    margin: 1px 0 0 1px;
+    background: #FFF;
+}
+
+.other-product ul li a:hover {
+    color: #ff344d;
+}
+
+.other-product ul li .name {
+    font-size: 12px;
+    color: #181818;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    min-height: 40px;
+    padding: 0 18px;
+}
+
+.other-product ul li .black {
+    font-size: 14px;
+    color: #181818;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 24px;
+}
+
+.other-product ul li .des {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4e4e4e;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 24px;
+}
+
+.other-product ul li a {
+    display: block;
+}
+
+.other-product ul li .imgHeight {
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.other-product ul li .imgHeight img {
+    width: 200px;
+    height: 200px;
+}
+
+.other-product ul li .price {
+    height: 40px;
+    padding: 0 18px;
+}
+
+.other-product ul li .price .now_price {
+    color: #ff2832;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.other-product ul li .price i {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.other-product ul li .price .old_price {
+    color: #8e8e8e;
+    font-size: 12px;
+    text-decoration: line-through;
+    padding-left: 10px;
+    line-height: 40px;
+}
+
+.other-product ul li .icon-hour {
+    height: 16px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon-day.jpg) no-repeat 18px 0;
+}
+
+.other-product ul li .icon-day {
+    height: 16px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon-hour.jpg) no-repeat 18px 0;
+}
+
+.gallerybg {
+    width: 1200px;
+    height: 430px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gallerybg .gawidth {
+    width: 297px;
+    height: 430px;
+    position: absolute;
+}
+
+.gallerybg .leftbg {
+    top: 0;
+    left: -137px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/left.png) no-repeat;
+}
+
+.gallerybg .rightbg {
+    top: 0;
+    right: -297px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/right.png) no-repeat;
+}
+
+.floor_left dl dd.brand_icon img {
+    width: 90px;
+    height: 67px;
+}
+
+.floor_right {
+    float: left;
+    border-top: 3px #333 solid;
+    border-bottom: 1px #e5e5e5 solid;
+    border-right: 1px #e5e5e5 solid;
+    width: 955px;
+    height: 689px;
+}
+
+.red_line {
+    border-top: 3px #ff344d solid;
+}
+
+.con_lf {
+    float: left;
+}
+
+.con_lf ul li {
+    padding: 0 10px;
+    padding-top: 8px;
+    width: 220px;
+    height: 222px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.con_lf ul li.m_bg {
+    background: #deefa5;
+}
+
+.con_lf .des {
+    font-size: 14px;
+    color: #777;
+    line-height: 20px;
+}
+
+.con_lf .name {
+    font-size: 16px;
+    color: #444;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 21px;
+}
+
+.con_lf .price {
+    font-size: 22px;
+    color: #444;
+    line-height: 30px;
+}
+
+.con_lf .price em {
+    font-size: 16px;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.con_lf ul li.m_bg .des {
+    color: #487206;
+}
+
+.con_lf ul li.m_bg .name {
+    color: #487206;
+}
+
+.con_lf ul li.m_bg .price {
+    color: #487206;
+}
+
+.con_lf ul li .imgHeight img {
+    width: 220px;
+    height: 140px;
+}
+
+.con_rt {
+    float: left;
+}
+
+.con_rt .pro_l {
+    width: 476px;
+    height: 459px;
+    float: left;
+}
+
+.con_rt .pro_l img {
+    width: 476px;
+    height: 459px;
+}
+
+.con_rt .pro_r {
+    width: 217px;
+    height: 459px;
+    float: right;
+    padding-right: 8px;
+}
+
+.con_rt .pro_r ul {
+    padding-top: 20px;
+}
+
+.con_rt .pro_r .des {
+    font-size: 14px;
+    color: #868686;
+}
+
+.con_rt .pro_r .name {
+    font-size: 16px;
+    color: #444;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 60px;
+}
+
+.con_rt .pro_r .price {
+    font-size: 22px;
+    color: #444;
+}
+
+.con_rt .pro_r .imgHeight {
+    padding-top: 20px;
+}
+
+.con_rt .pro_r .imgHeight img {
+    width: 216px;
+    height: 286px;
+}
+
+.con_rt .pro_r .price em {
+    font-size: 16px;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.con_rt .pro_img {
+    width: 715px;
+    height: 230px;
+}
+
+.con_rt .pro_img img {
+    width: 715px;
+    height: 230px;
+}
+
+.con_up .pro_l {
+    width: 666px;
+    height: 316px;
+    float: left;
+}
+
+.con_up .pro_l img {
+    width: 666px;
+    height: 316px;
+}
+
+.con_up .pro_r {
+    width: 280px;
+    height: 316px;
+    float: left;
+    padding-right: 8px;
+}
+
+.con_up .pro_r ul {
+    padding: 20px 0 0 20px;
+}
+
+.con_up .pro_r .des {
+    font-size: 14px;
+    color: #868686;
+}
+
+.con_up .pro_r .name {
+    font-size: 16px;
+    color: #444;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.con_up .pro_r .imgHeight img {
+    width: 250px;
+    height: 196px;
+}
+
+.con_up .pro_r .price {
+    font-size: 22px;
+    color: #444;
+}
+
+.con_up .pro_r .price em {
+    font-size: 16px;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+#dialogBox_coupon {
+    width: 700px;
+    height: 500px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/img_coupon_popout.png) no-repeat center;
+}
+
+#dialogBox_coupon .btn-close {
+    position: absolute;
+    right: 82px;
+    top: 22px;
+    width: 50px;
+    height: 50px;
+    background: none;
+    cursor: pointer;
+}
+
+#dialogBox_coupon .btn_ok {
+    position: absolute;
+    right: 245px;
+    bottom: 73px;
+    width: 240px;
+    height: 90px;
+    cursor: pointer;
+}

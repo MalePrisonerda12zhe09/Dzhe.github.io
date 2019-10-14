@@ -1,0 +1,148 @@
+#contentWrap {
+    padding: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+#lgnBox {
+    height: 100%;
+    background-color: #fff;
+    color: #999;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+
+#lgnBox .ehyHeader .logo {
+    float: left;
+    display: inline-block;
+    width: 366px;
+    height: 97px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/bg_logo.png) no-repeat;
+}
+
+#lgnBox .ehyHeader span {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 55px;
+    font-size: 18px;
+    color: #ff344d;
+}
+
+#lgnBox .ehyHeader .loginTips {
+    float: right;
+    padding-top: 66px;
+    font-size: 16px;
+}
+
+#lgnBox .ehyBody {
+    min-height: 589px;
+    background-color: #f2f2f2;
+}
+
+#lgnBox .ehyFooter {
+    padding: 50px 0 20px;
+}
+
+#lgnBox .ehyFooter p {
+    color: #7e7e7e;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#lgnBox .ehyFooter ul {
+    margin: 20px auto;
+    width: 600px;
+    height: 30px;
+    overflow: hidden;
+}
+
+#lgnBox .ehyFooter li {
+    float: left;
+    margin-right: 45px;
+}
+
+#lgnBox .ehyFooter li.last {
+    margin-right: 0;
+}
+
+#lgnBox .ehyFooter li a {
+    display: block;
+    width: 83px;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#lgnBox .ehyFooter li img {
+    max-width: 83px;
+    height: 30px;
+}
+
+#lgnBox .loginContainer {
+    padding-top: 90px;
+    min-width: 1200px;
+    height: 499px;
+    background: #ff334c url(http://design.ehaoyao.com/new_site/static/images/bg_login.jpg) no-repeat center top;
+}
+
+#lgnBox .loginWrap {
+    float: right;
+    width: 350px;
+    background-color: #fff;
+}
+
+#lgnBox .loginWrap .hd {
+    height: 50px;
+    background: #f3f3f3 url(http://design.ehaoyao.com/new_mall/resources/images/logos/login_logo.png) no-repeat 25px 0;
+}
+
+#lgnBox .loginWrap .accountBox,
+#lgnBox .loginWrap .telphoneBox {
+    padding: 40px 25px;
+    width: 299px;
+    height: 340px;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+
+#lgnBox .btn-login {
+    background: #ff334c;
+}
+
+#lgnBox .loginWrap .title h2 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3c3c3c;
+}
+
+#lgnBox .loginWrap .telphoneBox {
+    height: 390px;
+}
+
+#lgnBox .tip {
+    margin-top: 32px;
+    padding-left: 18px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon_warn_tip.png) no-repeat left top 3px;
+    background-size: 13px;
+}
+
+#lgnBox .tip span {
+    color: #ff344d;
+}
+
+#lgnBox .loginWrap .telphoneBox .tip {
+    margin-top: 14px;
+}
+
+.none {
+    display: none;
+}
+
+.btn-findP {
+    float: right;
+    color: #ff344d;
+}

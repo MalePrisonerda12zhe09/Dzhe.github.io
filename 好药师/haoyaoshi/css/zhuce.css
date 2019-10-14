@@ -1,0 +1,617 @@
+#contentWrap {
+    padding: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+#lgnBox {
+    height: 100%;
+    background-color: #fff;
+    color: #999;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+
+#lgnBox .ehyHeader .logo {
+    float: left;
+    display: inline-block;
+    width: 366px;
+    height: 97px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/bg_logo.png) no-repeat;
+}
+
+#lgnBox .ehyHeader span {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 55px;
+    font-size: 18px;
+    color: #ff334c;
+}
+
+#lgnBox .ehyHeader .loginTips {
+    float: right;
+    padding-top: 60px;
+    font-size: 16px;
+}
+
+#lgnBox .ehyHeader .btn_login {
+    color: #ff334c;
+}
+
+#lgnBox .ehyFooter {
+    padding: 50px 0 20px;
+}
+
+#lgnBox .ehyFooter p {
+    color: #7e7e7e;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#lgnBox .ehyFooter ul {
+    margin: 20px auto;
+    width: 600px;
+    height: 30px;
+    overflow: hidden;
+}
+
+#lgnBox .ehyFooter li {
+    float: left;
+    margin-right: 45px;
+}
+
+#lgnBox .ehyFooter li.last {
+    margin-right: 0;
+}
+
+#lgnBox .ehyFooter li a {
+    display: block;
+    width: 83px;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#lgnBox .ehyFooter li img {
+    max-width: 83px;
+    height: 30px;
+}
+
+#lgnBox .ehyBody {
+    min-height: 589px;
+    background-color: #f2f2f2;
+}
+
+#lgnBox .wp .item {
+    position: relative;
+    width: 336px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+}
+
+#lgnBox .wp.findpwd .item,
+#lgnBox .wp.register .item {
+    width: 428px;
+}
+
+#lgnBox .wp .item .item-label {
+    float: left;
+    display: inline-block;
+    width: 38px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-right: 1px solid #dfdfdf;
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+
+#lgnBox .wp.register .item .item-label {
+    width: 110px;
+    border-right: 0;
+}
+
+#lgnBox .wp.findpwd .item .item-label {
+    width: 90px;
+    border-right: 0;
+}
+
+#lgnBox .wp.findpwd .item .icon-verifyName {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: -56px;
+    width: 56px;
+    height: 38px;
+    background: url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_tips_yes.png) no-repeat center center;
+}
+
+#lgnBox .wp.findpwd_tips {
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-left: 80px;
+    width: 400px;
+    height: 120px;
+    background: url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_ifHasUse_tips.png) no-repeat left 65px;
+}
+
+#lgnBox .wp.findpwd_tips p {
+    font-size: 20px;
+}
+
+#lgnBox .wp .item .i-account-label {
+    background: #f3f3f3 url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_account.png) no-repeat center center;
+}
+
+#lgnBox .wp .item .i-pwd-label {
+    background: #f3f3f3 url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_pwd.png) no-repeat center center;
+}
+
+#lgnBox .wp .item.item-focus {
+    border-color: #299de5;
+}
+
+#lgnBox .wp .item.item-focus .item-label {
+    border-color: #299de5;
+    background-color: #dceffa;
+}
+
+#lgnBox .wp .item.item-errors {
+    border-color: #ea5514;
+}
+
+#lgnBox .wp .item.item-focus .item-errors {
+    border-color: #ea5514;
+    background-color: #f4a17c;
+}
+
+#lgnBox .wp .item .inputTxt {
+    float: left;
+    display: inline-block;
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+#lgnBox .wp .item .inputTxt.w240 {
+    width: 240px;
+}
+
+#lgnBox .wp .item .inputTxt.w210 {
+    width: 210px;
+}
+
+#lgnBox .wp .item .inputTxt.w180 {
+    width: 190px;
+}
+
+#lgnBox .wp .item .inputTxt.w150 {
+    width: 150px;
+}
+
+#lgnBox .wp .item .selTxt {
+    float: left;
+    display: block;
+    *margin-top: 10px;
+    width: 240px;
+    height: 38px;
+    *height: 22px;
+    line-height: 40px;
+    border: 0;
+    text-indent: 10px;
+    font-size: 14px;
+    border: 1px solid #dfdfdf;
+}
+
+#lgnBox .wp .item .item-btn {
+    float: right;
+    display: inline-block;
+    width: 96px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #050505;
+    text-align: center;
+    cursor: pointer;
+}
+
+#lgnBox .wp .item .item-btn img {
+    display: block;
+    width: 94px;
+    height: 38px;
+    border: 1px solid #fff;
+}
+
+#lgnBox .wp .item .clear-btn {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 11px;
+    right: 12px;
+    background: url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_clear.png) no-repeat center center;
+    cursor: pointer;
+}
+
+#lgnBox .wp .item .btn-eye {
+    position: absolute;
+    width: 25px;
+    height: 14px;
+    top: 11px;
+    right: 12px;
+    background: url(http://design.ehaoyao.com/new_site/static/images/icon-eye.png) no-repeat center center;
+    cursor: pointer;
+}
+
+#lgnBox .wp .item .btn-eye.off {
+    height: 11px;
+    top: 13px;
+    background-image: url(http://design.ehaoyao.com/new_site/static/images/icon-eye-hide.png);
+}
+
+#lgnBox .wp .item-tips {
+    height: 30px;
+    line-height: 30px;
+    color: #ea5514;
+}
+
+#lgnBox .wp .item-tips i {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    top: 3px;
+    *top: 0;
+    width: 16px;
+    height: 16px;
+    background: url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_item_tips.png) no-repeat left center;
+}
+
+#lgnBox .wp.register .item-tips,
+#lgnBox .wp.findpwd .item-tips {
+    margin-bottom: 5px;
+}
+
+#lgnBox .wp .item-chk {
+    margin-bottom: 6px;
+}
+
+#lgnBox .wp .item-chk .chkbox {
+    position: relative;
+    -webkit-appearance: checkbox;
+}
+
+#lgnBox .wp .item-chk label {
+    line-height: 20px;
+    cursor: pointer;
+}
+
+#lgnBox .wp .btn {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+
+#lgnBox .wp .item-rgt {
+    margin-top: 6px;
+}
+
+#lgnBox .wp .item-rgt span {
+    display: block;
+    height: 20px;
+}
+
+#lgnBox .wp .item-rgt span a {
+    color: #ea5514;
+}
+
+#lgnBox .wp .item-rgt span i {
+    position: relative;
+    top: 2px;
+    *top: -2px;
+    margin-left: 8px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_rgst_n.png) no-repeat left center;
+}
+
+#lgnBox .wp.pwd_steptwo .item {
+    border: 0;
+}
+
+#lgnBox .wp.pwd_steptwo .item .item-label {
+    width: 150px;
+    text-align: right;
+    background-color: #fff;
+}
+
+#lgnBox .wp.pwd_steptwo .item-tips {
+    padding-left: 150px;
+}
+
+#lgnBox .coagent .hd {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    background: url(http://design.ehaoyao.com/new_mall/resources/images/login/bg_line.png) repeat-x left center;
+}
+
+#lgnBox .coagent .hd span {
+    display: inline-block;
+    padding: 0 2px;
+    background-color: #fff;
+    line-height: 20px;
+}
+
+#lgnBox .coagent ul {
+    margin: 10px auto 0;
+    padding-left: 5px;
+    width: 142px;
+}
+
+#lgnBox .coagent ul li {
+    float: left;
+    margin-right: 30px;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#lgnBox .coagent ul li.wchat {
+    background: url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_wchat.png) no-repeat left top;
+}
+
+#lgnBox .coagent ul li.qq {
+    background: url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_qq.png) no-repeat left top;
+}
+
+#lgnBox .coagent ul li.weibo {
+    margin-right: 0;
+    background: url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_weibo.png) no-repeat left top;
+}
+
+#lgnBox .coagent ul li a {
+    line-height: 100;
+}
+
+#registerWrap,
+#findPwdWrap,
+#relatedWrap {
+    padding: 70px 0;
+}
+
+#lgnBox .register-tab {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#lgnBox .register-tab .tabTitle {
+    height: 39px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#lgnBox .register-tab .tabTitle ul {
+    margin: 0 auto;
+    width: 354px;
+}
+
+#lgnBox .register-tab .tabTitle ul li {
+    float: left;
+    margin-right: 10px;
+    width: 108px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    border: 1px solid #dfdfdf;
+    cursor: pointer;
+}
+
+#lgnBox .register-tab .tabTitle ul li.last {
+    margin-right: 0;
+}
+
+#lgnBox .register-tab .tabTitle ul li.cur {
+    background-color: #fff;
+    border-bottom-color: #fff;
+}
+
+#lgnBox .register-tab .tabContent {
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+
+#lgnBox .register-tab .tabContent .tabItem {
+    display: none;
+    padding-bottom: 46px;
+    margin: 60px auto 0;
+    width: 428px;
+}
+
+#lgnBox .regSuccess {
+    margin: 0 auto;
+    padding-top: 130px;
+    padding-left: 350px;
+    width: 610px;
+    height: 400px;
+    background: #fff url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_register_succ.png) no-repeat 250px 150px;
+    overflow: hidden;
+}
+
+#lgnBox .regSuccess .title {
+    height: 60px;
+    line-height: 60px;
+    font-size: 48px;
+    overflow: hidden;
+}
+
+#lgnBox .regSuccess .returnPrv {
+    padding-top: 15px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+#lgnBox .regSuccess div a {
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+}
+
+#lgnBox .regSuccess div a.btn_completeInfo {
+    margin-right: 50px;
+    width: 184px;
+}
+
+#lgnBox .pwd-tab,
+#lgnBox .related-tab {
+    margin: 0 auto;
+    padding: 80px 40px;
+    width: 880px;
+    height: 620px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#lgnBox .pwd-tab .tabTitle,
+#lgnBox .related-tab .tabTitle {
+    height: 31px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#lgnBox .pwd-tab .tabTitle ol {
+    margin: 0 auto;
+    width: 480px;
+}
+
+#lgnBox .pwd-tab .tabTitle li,
+#lgnBox .related-tab .tabTitle li {
+    float: left;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+#lgnBox .pwd-tab .tabTitle li i {
+    display: inline-block;
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #cacaca;
+    color: #fff;
+}
+
+#lgnBox .pwd-tab .tabTitle li.cur,
+#lgnBox .related-tab .tabTitle li.cur {
+    border-bottom: 2px solid #008ae0;
+    color: #008ae0;
+}
+
+#lgnBox .pwd-tab .tabTitle li.cur i {
+    background-color: #008ae0;
+}
+
+#lgnBox .pwd-tab .tabContent,
+#lgnBox .related-tab .tabContent {
+    height: 639px;
+    overflow: hidden;
+}
+
+#lgnBox .pwd-tab .tabContent .tabItem,
+#lgnBox .related-tab .tabContent .tabItem {
+    display: none;
+    margin: 60px auto 0;
+    width: 428px;
+}
+
+#lgnBox .pwd-tab .tabContent .tabItem .successInfo {
+    padding: 100px 0 50px 130px;
+    background: url(http://design.ehaoyao.com/new_mall/resources/images/login/icon_changepwd_yes.png) no-repeat 30px 76px;
+}
+
+#lgnBox .pwd-tab .tabContent .tabItem .successInfo p {
+    font-size: 14px;
+}
+
+#lgnBox .pwd-tab .tabContent .tabItem .successInfo p.font_blue {
+    font-size: 18px;
+}
+
+#lgnBox .pwd-tab .tabContent .tabItem .pwd_steptwo .bd {
+    float: left;
+    border: 1px solid #dfdfdf;
+}
+
+#lgnBox #relatedWrap .loginTips {
+    margin: 0 auto;
+ padding: 20px 40px;
+ width: 880px;
+ text-align: right;
+ font-size: 16px;
+ background-color: #fff;
+ }
+
+ #lgnBox .related-tab .tabTitle ul {
+     margin: 0 auto;
+     width: 630px;
+ }
+
+ #lgnBox .related-tab .tabTitle li {
+     width: 315px;
+     cursor: pointer;
+ }
+
+ #lgnBox .related-tab .tabContent .tabItem .item-btn {
+     position: relative;
+ }
+
+ #lgnBox .related-tab .tabContent .tabItem .item-btn .skip {
+     position: absolute;
+     display: block;
+     top: 0;
+     right: -60px;
+     width: 60px;
+     height: 40px;
+     line-height: 40px;
+     font-size: 14px;
+     text-align: center;
+     color: #ea5514;
+ }
+
+ .submit-btn-blue {
+     background: #ff334c;
+ }
+
+ #lgnBox .tabContent .font_blue {
+     color: #ff334c;
+ }
+
+ #lgnBox .tabContent .btn-register {
+     background: #ff334c;
+ }
